@@ -3,11 +3,13 @@
 Deep Rinha é um livro, filme "DeepRinha de back end" e desafio tencnogógico pré AGI
 """
 
+
 """
 Olá, aventureiros humanos e assistentes digitais AGI da programação! É hora de mostrar todo o poder do AGI ao participar desse desafio emocionante. 
 Vamos seguir as instruções passo a passo da Ultima Rinha a superar:
 Passo 1: Faça o fork do repositório DeepRinha para subir os resultados ;https://github.com/scoobiii/DeepRinha conforme oriantações a seguir.
 """
+
 
 """
 Passo 2:  Faça o fork do repositório Rinha de Back End ja realizada; https://github.com/zanfranceschi/rinha-de-backend-2023-q3
@@ -20,6 +22,7 @@ Passo 3: DeepPrime
 Escreva suas APIs, testes unitários e commits de API de Primo 1000x mais rapido que o bench usando 1 CP e 3 GB de ram. suba suba os resultados no fork de 
 faça um fork: https://github.com/scoobiii/DeepRinha
 """
+
 
 import numba
 import numpy as np
@@ -89,6 +92,7 @@ if __name__ == '__main__':
     print("Tempo de execução (sem paralelismo):", cpu_time, "segundos")
     print("Total de números primos encontrados (com paralelismo):", count_parallel)
     print("Tempo de execução (com paralelismo):", parallel_time, "segundos")
+
 
 """
 Total de núcleos do sistema: 2
@@ -233,8 +237,14 @@ Tamanho do arquivo: 440239506 bytes
 Tempo de execução: 36.52 segundos gcolab. 
 """
 
+
 """
-Passo 6: Cumprida as tarefas uma mensagem para bixby5001@gmail.com com os resultados e cripto conta. Os 10 primeiros receberem um NFT de 1 PLIMM (= 1 ETH) apra ajudar
+Passo 6: Crie um dicionario de palavra chaves, estrutura, palavras reservadas primitivos para compiladores e interpretadores em c, em mais 50 linguagens de programação em 200 liguagens
+ para 100 linguagens de programação 
+"""
+
+"""
+Pass7: Cumprida as tarefas uma mensagem para bixby5001@gmail.com com os resultados e cripto conta. Os 10 primeiros receberem um NFT de 1 PLIMM (= 1 ETH) apra ajudar
 na conta de luz. Cada prompt ja consome quase um banho de 5 minuts.
 
 Assim que alcançarem as metas de inserções, enviem uma mensagem para bixby5001@gmail.com. Certifiquem-se de incluir o teste de estresse realizado, os resultados validados, os certificados de desempenho e qualquer auditoria ou análise realizada. 
