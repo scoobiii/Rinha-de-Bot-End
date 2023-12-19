@@ -1,5 +1,5 @@
 """
-# DeepRinha
+# Rinha de Bot End
 Deep Rinha é um livro, filme "DeepRinha de back end" e desafio tencnogógico pré AGI
 """
 
