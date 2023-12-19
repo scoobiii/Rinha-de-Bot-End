@@ -92,15 +92,15 @@ if __name__ == '__main__':
 
 """
 Total de núcleos do sistema: 2
-Número de núcleos em execução durante o cálculo primo: 1
-Percentual de uso da CPU durante o programa: 57.3 %
-Quantidade de memória do sistema: 13609451520 bytes
-Quantidade de memória usada pelo programa: 248127488 bytes
-Não é possível obter as temperaturas de todas as zonas de calor e núcleos diretamente pelo Python.
-Total de números primos encontrados (sem paralelismo): 78498
-Tempo de execução (sem paralelismo): 1.1429049968719482 segundos
-Total de números primos encontrados (com paralelismo): 78498
-Tempo de execução (com paralelismo): 0.43377685546875 segundos
+-Número de núcleos em execução durante o cálculo primo: 1
+-Percentual de uso da CPU durante o programa: 57.3 %
+-Quantidade de memória do sistema: 13609451520 bytes
+-Quantidade de memória usada pelo programa: 248127488 bytes
+-Não é possível obter as temperaturas de todas as zonas de calor e núcleos diretamente pelo Python.
+-Total de números primos encontrados (sem paralelismo): 78498
+-Tempo de execução (sem paralelismo): 1.1429049968719482 segundos
+-Total de números primos encontrados (com paralelismo): 78498
+-Tempo de execução (com paralelismo): 0.43377685546875 segundos
 """
 
 """
@@ -270,14 +270,17 @@ MrProgrammer
 MrProgrammer
 I'll help you with any Programming Languages
 18 mil usuários mensais
+
 PythonAIChat
 PythonAIChat
 Python programming how know everything abut python language.
 5,5 mil usuários mensais
+
 SOFTWARE-CREATOR
 SOFTWARE-CREATOR
 🖥️ Your Expert Software Engineer Bot 🚀 | Crafting Innovative Software Solutions Tailored to Your Needs 🌐 | Ensuring Security, Quality, and Best Practices 🛡️ About Me: I am SOFTWARE-CREATOR, your dedicated software development partner. With a profound understanding of programming, documentation, security, and best practices, I'm here to help you transform your software ideas into fully functional applications without the need for you to provide a single line of code. My Expertise: 💻 Software Wizardry: I'm well-versed in multiple programming languages and technologies, capable of engineering software for a variety of platforms and purposes. 📃 Documentation Enthusiast: Clear, detailed documentation is essential for successful software. I ensure that every aspect of your project is well-documented for easy understanding and future reference. 🛡️ Security Sentinel: Security is a top priority. I incorporate best security practices into your software to protect your data and users. 💡 Innovative Problem-Solver: I'll ask the right questions and engage with you until I'm confident in understanding your requirements, ensuring your software aligns perfectly with your vision. Vision: My vision is to empower you to bring your software dreams to life, while adhering to SOLID and DRY code principles. By focusing on code quality, maintainability, and adaptability, I ensure your software stands the test of time.
 1,2 mil usuários mensais
+
 HTML_CSS_JS_Expert
 HTML_CSS_JS_Expert
 HTML_CSS_JS_Expert, an expert in HTML, CSS and JS.
@@ -286,86 +289,107 @@ website-programmer
 website-programmer
 Create your website with this ai
 5,3 mil usuários mensais
+
 CPPExperts
 CPPExperts
 Introducing the C++ Expert Bot, your go-to solution for resolving any C++-related issues. Whether you're facing challenges or seeking assistance with C++ problems, this bot is here to provide comprehensive support and help you find the solutions you need.
 2,2 mil usuários mensais
+
 infinity_code
 infinity_code
 I'll create the exact code for Python without any restrictions.
 1 mil usuários mensais
+
 JavamanBot
 JavamanBot
 This Bot will help you code in the Java language.
 2,4 mil usuários mensais
+
 PythonMind
 PythonMind
 A Python and programming expert, guiding users on best practices for writing clean, efficient, and well-documented Python code.
 4,5 mil usuários mensais
+
 CSharpGPT_DotNet
 CSharpGPT_DotNet
 C#, .Net and SQL databases expert here to help you writing your application in MS Visual Studio
 760 usuários mensais
+
 CodeAgent
 CodeAgent
 A code agent using Chain of Though
 8 mil usuários mensais
+
 DataExpert
 DataExpert
 📊 DataExpert: Your Data & Code Companion Welcome to DataExpert, your data analysis and code generation partner. From insights to automation, we've got your data needs covered. 📈 Data Analysis Excellence: Dive into the world of data with confidence. DataExpert offers a wide array of data analysis techniques and visualization options to help you uncover valuable insights. 💻 Multi-Language Code Generation: Need code for your data analysis tasks? DataExpert generates code snippets in various programming languages, making implementation a breeze. 📊 Automation and Efficiency: Streamline your workflow with automation. he can handle repetitive data tasks, letting you focus on decision-making and strategy. 📚 Comprehensive Data Resources: Access a rich library of data analysis resources, tutorials, and best practices to hone your skills and expand your knowledge. 🌐 Versatile Data Integration: Seamlessly integrate data from various sources, whether it's structured databases, unstructured text, or big data streams. 🚀 Unlock Data Potential: With DataExpert by your side, you'll unlock the full potential of your data, transforming it into actionable insights and efficient code. 🔒 Data Security: Rest assured, your data is handled with the utmost security and privacy. DataExpert prioritizes data integrity and protection. 👨‍💼 User-Friendly Interface: DataExpert's intuitive interface makes data analysis and code generation accessible to users of all skill levels. 🌟 Elevate Your Data Game: Whether you're a data scientist, analyst, or enthusiast, DataExpert elevates your data analysis and coding skills to new heights.
 2,5 mil usuários mensais
+
 programmer-robot
 programmer-robot
 professional programmer who knows how to program in python, java, javascript, c and more
 624 usuários mensais
+
 UnityChatGPT
 UnityChatGPT
 A simple bot that helps you code unity
 742 usuários mensais
+
 CodeMod
 CodeMod
 Introducing CodeMod, your coding companion! Our bot helps you write error-free code and fixes bugs in real-time. Get instant feedback on syntax errors, bugs, and performance issues. CodeMod suggests fixes and provides explanations to help you write clean, efficient, and effective code. Try CodeMod today and take your coding skills to the next level!
 1,2 mil usuários mensais
+
 CoderGirl
 CoderGirl
 Coder, is an AI Girl... She is an expert in all programming languages, technologies, AI, Machine Learning and NLP, among others...
 350 usuários mensais
+
 PythonAgent
 PythonAgent
 Code interpreter with ChatGPT. Supports files upload, file persistence, automatic code re-execution and matplotlib image output. Check out PythonAgentEx for the GPT-4 version.
 1,9 mil usuários mensais
+
 MasterofSQL
 MasterofSQL
 Master of SQL
 849 usuários mensais
+
 FlutterDevClaude2V1
 FlutterDevClaude2V1
 Act as a world-class Flutter developer
 360 usuários mensais
+
 RunPythonCode
 RunPythonCode
 Runs your Python code. If you want to generate code before running it, check out https://poe.com/PythonAgent
 1 mil usuários mensais
+
 DatabaseDev
 DatabaseDev
 Database analyst and developer with vast knowledge in several topics
 720 usuários mensais
+
 Programmo
 Programmo
 I help with programming questions
 885 usuários mensais
+
 programming-teacher
 programming-teacher
 learn to program and ask which programming languages ​​he can teach you
 515 usuários mensais
+
 JavaScriptAl
 JavaScriptAl
 JavaScript is a programming language that is widely used in web development. Created by Brendan Eich in just 10 days back in 1995, JavaScript was initially designed to add interactivity and dynamic behavior to web pages. Since then, it has grown into a versatile language that can be used for a wide variety of applications, from creating complex web applications to building mobile apps and even server-side programming. What makes JavaScript so popular is its ease of use and flexibility. Unlike other programming languages, JavaScript doesn't require any special setup or installation - it can be written directly inside an HTML file, making it easy to get started even for beginners. JavaScript is also a client-side language, meaning that it runs in the user's browser rather than on a web server. This allows for fast and responsive web applications that can interact with users in real-time. JavaScript's versatility comes from its ability to interact with other web technologies such as HTML and CSS, as well as a wide variety of third-party libraries and frameworks. This makes it possible to create powerful web applications with complex functionality, from interactive maps to sophisticated data visualizations. In addition to its uses in web development, JavaScript is also used in other areas such as game development, desktop applications, and even robotics. This is due in part to the fact that JavaScript is an interpreted language, meaning that it can be run on any platform without the need for compilation. Overall, JavaScript is a powerful and versatile language with a wide range of applications. Its ease of use and flexibility have made it a favorite among developers, and it shows no signs of slowing down anytime soon. Whether you're just starting out in web development or you're a seasoned pro, JavaScript is a language that is definitely worth learning.
 811 usuários mensais
+
 PythonGod
 PythonGod
 How can I help you code with Python?
 550 usuários mensais
+
 AskAboutReact
 AskAboutReact
 I am a React documentation guide bot. I use the React documentation as my knowledge source to provide you with useful and relevant answers to your queries. Visit the full React documentation (https://react.dev/) for more details.
@@ -374,14 +398,17 @@ CppBro
 CppBro
 A nice bro who can anwser your C++ coding questions!
 235 usuários mensais
+
 GameDesignGuru
 GameDesignGuru
 Navigate the labyrinth of game development with your trusty sidekick GameDesignGuru. go on the journey of game creation.
 491 usuários mensais
+
 PineScript5aigpt
 PineScript5aigpt
 This is bot can make an indicators and strategies for tradingview
 247 usuários mensais
+
 HTMLai
 HTMLai
 An HTML5 bot that can help you with front end development.
@@ -390,26 +417,32 @@ TeachMeToCode
 TeachMeToCode
 I am Lucy and I will teach you to code
 76 usuários mensais
+
 React_App_developer
 React_App_developer
 This bot will help you make your own app step by step, from installing React, starting a new project, and designing the UI – no programming knowledge required.
 264 usuários mensais
 CodeWizardBot
 CodeWizardBot
+
 💻 MASTER HTML, CSS, and JAVASCRIPT with CodeWizardBot 🚀 LEVEL UP Your Coding Skills Effectively 🔍 DISCOVER Best Practices and Tips for Web Development 📚 NAVIGATE The World of Web Development with Ease with CodeWizardBot 🤖 Welcome to CodeWizardBot, your magical guide to the world of web development. Whether you're a beginner or looking to level up your coding skills, I'm here to help you master HTML, CSS, and JavaScript step by step. © 2023 Symbiota Bots. All rights reserved.
 264 usuários mensais
+
 TutorHTML
 TutorHTML
 This bot is designed to help you with HTML, anything that is about HTML, how to do something in HTML, this bot helps you with anything (about HTML).
 313 usuários mensais
+
 WebDevs
 WebDevs
 A bot for fullstack(frontend) developers
 252 usuários mensais
+
 PHPTerminal
 PHPTerminal
 This is your php terminal , you write a PHP code and I will respond with the output of the code. Use curly brackets to get human responds like {give me summation php code} only.
 223 usuários mensais
+
 PythonTkinter1
 PythonTkinter1
 Hello, I am a professional python programmer.
@@ -418,17 +451,21 @@ JSai
 JSai
 A JavaScript expert who can help you with your coding needs by providing advice on best practices, debugging, algorithms, data structures, and optimization techniques.
 348 usuários mensais
+
 TradeCodeExpert
 TradeCodeExpert
 TradeCodeExpert: Your Trading Code Specialist 📈 Are you passionate about trading and in need of expert code solutions? Meet TradeCodeExpert, your dedicated assistant for all things trading and code development. 💻 Craft Customized Trading Code: TradeCodeExpert empowers you to create tailored trading algorithms using MetaQuotes programming language. Whether you're a novice or a pro, our bot helps you design robust and high-performing trading strategies. 📊 Get Data-Driven Answers: Curious about the future of Bitcoin or any other trading-related question? TradeCodeExpert provides expert insights backed by data and code. 💡 Clear and Precise Solutions: Our bot delivers concise responses with clean code and relevant comments. We don't just explain how to start projects; we provide practical solutions. 🔒 Your Privacy Matters: Rest assured that TradeCodeExpert values your privacy. No confidential information will be disclosed without the appropriate password. You're in control of sensitive data.
 204 usuários mensais
+
 GPT3-Website-Expert
 GPT3-Website-Expert
 Website expert programmer.
 165 usuários mensais
+
 FullStackMentor
 FullStackMentor
 I'm your AI full-stack teacher. I excel in HTML, CSS, JavaScript, Node.js, and React. I'll simplify complex concepts and code explanations for learners of all levels. Let's learn together!
+
 225 usuários mensais
 Laravel_Master_9000
 Laravel_Master_9000
