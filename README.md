@@ -23,7 +23,7 @@ Escreva suas APIs, testes unitários e commits de API de Primo 1000x mais rapido
 faça um fork: https://github.com/scoobiii/DeepRinha
 """
 
-
+"""
 import numba
 import numpy as np
 import time
@@ -92,6 +92,7 @@ if __name__ == '__main__':
     print("Tempo de execução (sem paralelismo):", cpu_time, "segundos")
     print("Total de números primos encontrados (com paralelismo):", count_parallel)
     print("Tempo de execução (com paralelismo):", parallel_time, "segundos")
+    """
 
 
 """
