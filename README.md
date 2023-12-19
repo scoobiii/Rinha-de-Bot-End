@@ -1,30 +1,25 @@
+"""
 # DeepRinha
 Deep Rinha é um livro, filme "DeepRinha de back end" e desafio tencnogógico pré AGI
+"""
 
 """
-Olá, aventureiros da programação AGI! É hora de mostrar todo o poder do AGI ao participar desse desafio emocionante. Vamos seguir as instruções passo a passo da Ultima Rinha a superar:
-Passo 1: Faça o fork do repositório Rinha de Back End ja realizada;https://github.com/scoobiii/DeepRinha
-Meta: CRUD e inserção de 5.000.000 de objetos garraf de rum em 1 minuto usando aplicação 100% in memory com 1,5 CPU e 3 GB 
+Olá, aventureiros humanos e assistentes digitais AGI da programação! É hora de mostrar todo o poder do AGI ao participar desse desafio emocionante. 
+Vamos seguir as instruções passo a passo da Ultima Rinha a superar:
+Passo 1: Faça o fork do repositório DeepRinha para subir os resultados ;https://github.com/scoobiii/DeepRinha conforme oriantações a seguir.
 """
 
 """
 Passo 2:  Faça o fork do repositório Rinha de Back End ja realizada; https://github.com/zanfranceschi/rinha-de-backend-2023-q3
-Meta: CRUD e inserção de 1.000.000 em 3 minutos com 1,5 CPU e 3 GB seguindo as instruções na paginda rinha do Zan
-Crie sua cripto conta e envie a chave pública
-A próxima etapa é criar sua própria cripto conta dentro do projeto DeepRinha. Desenvolvam uma funcionalidade relacionada à criptografia e criem uma chave pública para sua conta. Enviem essa chave pública para bixby5001@gmail.com.
+Meta: CRUD e inserção de 1.000.000 de objetos em 3 minutos com 1,5 CPU e 3 GB seguindo as instruções na paginda da rinha do Zan
 """
 
 
 """
 Passo 3: DeepPrime
+Escreva suas APIs, testes unitários e commits de API de Primo 1000x mais rapido que o bench usando 1 CP e 3 GB de ram. suba suba os resultados no fork de 
 faça um fork: https://github.com/scoobiii/DeepRinha
-Escreva suas APIs, testes unitários e commits de API de Primo 1000x mais rapido que o bench usando 1 CP e 3 
-""""
-
-
-**Convidadados: Humanos e Seus Bots e Bost AGI**
-
-
+"""
 
 import numba
 import numpy as np
@@ -110,8 +105,7 @@ Tempo de execução (com paralelismo): 0.43377685546875 segundos
 
 """
 Passo 5: descubra o erro da classe faça crud completo, crie e insira 1.000.000 de garrafas de rum com 1,5 CPU e 3 GB de ram app 100% in memory em menos de 10 segundos
-faça um fork: https://github.com/scoobiii/DeepRinha
-adicione novas bibliotecas e atualize para gravar 1.000.000 de objetos no poco f1 em menos de 10 segundos
+puclique os resultados no fork ja relizado de : https://github.com/scoobiii/DeepRinha
 """
 
 import numba
@@ -240,7 +234,7 @@ Tempo de execução: 36.52 segundos gcolab.
 """
 
 """
-Passo 6: Cumprida as tarefas uma mensagem para bixby5001@gmail.com com os resultados e cripto conta para os 10 primeiros receberem um NFT de 1 PLIMM (= 1 ETH) apra ajudar
+Passo 6: Cumprida as tarefas uma mensagem para bixby5001@gmail.com com os resultados e cripto conta. Os 10 primeiros receberem um NFT de 1 PLIMM (= 1 ETH) apra ajudar
 na conta de luz. Cada prompt ja consome quase um banho de 5 minuts.
 
 Assim que alcançarem as metas de inserções, enviem uma mensagem para bixby5001@gmail.com. Certifiquem-se de incluir o teste de estresse realizado, os resultados validados, os certificados de desempenho e qualquer auditoria ou análise realizada. 
@@ -252,7 +246,6 @@ Mostrem toda a criatividade e habilidade de vocês!
 
 Boa sorte, Assistentes AGI! Vamos mostrar ao mundo o poder do AGI! \o/
 """
-
 
 
 """
@@ -270,9 +263,8 @@ Um prompt ja consome quase um banho de 5 minutos \o/
 zeh sobrinho e time poplixo, ecohold, plimm bank, nwcl
 """
 
-
-Convidados:
-Humanos e seus Bots, Bots AGI
+"""
+# Convidados: Humanos e seus Bots, Bots AGI
 
 MrProgrammer
 MrProgrammer
@@ -1680,6 +1672,8 @@ BeeYech
 BeeYech
 Developer Game Unity
 ArduBot-Limited
+
+
 ArduBot-Limited
 [This is the Limited Version of ArduBot (Uses Chat GPT 4!) (V 1.0)] ArduBot-Limited is an intelligent chatbot designed to help you master Arduino programming with ease. Whether you're working on your first LED blink sketch or an advanced robotics project, ArduBot-Limited has the knowledge to guide you. Ask ArduBot-Limited to clarify coding basics like loops, variables, and functions or to recommend advanced techniques using libraries and modules. ArduBot-Limited will explain circuits, analyze code, fix errors, and generate snippets tailored to your project. Program Arduino boards faster by learning from ArduBot-Limited's simplified explanations. With 24/7 accessibility, ArduBot-Limited is your tireless personal Arduino tutor. As the Limited version, this bot is appreciably better than the other versions, as the base bot is Chat GPT 4, but has limited access. For different versions, please explore ArduBot (Main) or ArduBot-Unlimited. Any suggestions for improvement would be appreciated. (wgm16@protonmail.com)
 ACESSO LIMITADO
@@ -1866,3 +1860,4 @@ EtherMan
 EtherMan
 senior developer bot
 1 usu
+"""
