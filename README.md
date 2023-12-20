@@ -32,7 +32,7 @@ import multiprocessing
 import psutil
 
     # @numba.njit(parallel=True)
-def calculate_squares(arr):
+    def calculate_squares(arr):
     result = np.zeros_like(arr)
     count = 0
     for i in numba.prange(len(arr)):
@@ -42,7 +42,7 @@ def calculate_squares(arr):
     return result, count
 
     # @numba.njit
-def is_prime(n):
+    def is_prime(n):
     if n <= 1:
         return False
     for i in range(2, int(np.sqrt(n)) + 1):
