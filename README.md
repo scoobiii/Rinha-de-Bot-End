@@ -24,6 +24,7 @@ faça um fork: https://github.com/scoobiii/DeepRinha
 """
 
 """
+#
 import numba
 import numpy as np
 import time
