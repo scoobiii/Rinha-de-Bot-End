@@ -23,15 +23,15 @@ Escreva suas APIs, testes unitários e commits de API de Primo 1000x mais rapido
 faça um fork: https://github.com/scoobiii/DeepRinha
 """
 
-"""
-#
-import numba
+
+
+# import numba
 import numpy as np
 import time
 import multiprocessing
 import psutil
 
-@numba.njit(parallel=True)
+# @numba.njit(parallel=True)
 def calculate_squares(arr):
     result = np.zeros_like(arr)
     count = 0
@@ -41,7 +41,7 @@ def calculate_squares(arr):
         result[i] = arr[i] ** 2
     return result, count
 
-@numba.njit
+# @numba.njit
 def is_prime(n):
     if n <= 1:
         return False
@@ -50,7 +50,7 @@ def is_prime(n):
             return False
     return True
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
     # Criando um array de exemplo
     arr = np.arange(1, 1000000)
 
