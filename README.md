@@ -25,11 +25,11 @@ faça um fork: https://github.com/scoobiii/DeepRinha
 
 
 
-    # import numba
-import numpy as np
-import time
-import multiprocessing
-import psutil
+    import numba
+    import numpy as np
+    import time
+    import multiprocessing
+    import psutil
 
     # @numba.njit(parallel=True)
     def calculate_squares(arr):
@@ -114,20 +114,20 @@ Passo 5: descubra o erro da classe faça crud completo, crie e insira 1.000.000 
 puclique os resultados no fork ja relizado de : https://github.com/scoobiii/DeepRinha
 """
 
-import numba
-import numpy as np
-import psutil
-import json
-import random
-from uuid import uuid4
-import os
-import time
-import multiprocessing
-import resource
-import cpuinfo
+    import numba
+    import numpy as np
+    import psutil
+    import json
+    import random
+    from uuid import uuid4
+    import os
+    import time
+    import multiprocessing
+    import resource
+    import cpuinfo
 
 
-def gerar_garrafas_rum_parte(quantidade_garrafas):
+    def gerar_garrafas_rum_parte(quantidade_garrafas):
     marcas = ["José Roberto Rum", "Barbados Rum", "Jamaica Rum", "Cuba Rum"]
     modelos = ["10 Anos", "15 Anos", "20 Anos", "Extra Añejo"]
     rotulos = ["Rum artesanal brasileiro", "Rum caribenho", "Rum tradicional", "Rum premium"]
@@ -159,7 +159,7 @@ def gerar_garrafas_rum_parte(quantidade_garrafas):
 
     return garrafas_rum
 
-def gerar_garrafas_rum(quantidade_garrafas):
+    def gerar_garrafas_rum(quantidade_garrafas):
     num_processos = multiprocessing.cpu_count()  # Obtemos o número de processadores disponíveis
     quantidade_garrafas_por_processo = quantidade_garrafas // num_processos  # Dividimos igualmente as garrafas entre os processos
 
@@ -173,7 +173,7 @@ def gerar_garrafas_rum(quantidade_garrafas):
     return garrafas_rum
 
 
-def obter_informacoes_sistema():
+    def obter_informacoes_sistema():
     num_cpus = multiprocessing.cpu_count()
     memory = psutil.virtual_memory()
     total_memory = memory.total
@@ -202,41 +202,46 @@ def obter_informacoes_sistema():
 
     return informacoes
 
-informacoes_sistema = obter_informacoes_sistema()
-print(informacoes_sistema)
+    informacoes_sistema = obter_informacoes_sistema()
+    print(informacoes_sistema)
 
-# Medição do tempo
-start_time = time.time()
+    # Medição do tempo
+    start_time = time.time()
+    
+    garrafas_rum = gerar_garrafas_rum(1000000)
+    
+    with open("garrafas-rum.json", "w") as arquivo:
+        info = {
+            "version": "1.0",
+            "author": "Zeh Sobrinho",
+            "date": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "data": garrafas_rum
+        }
+        json.dump(info, arquivo, indent=2)
 
-garrafas_rum = gerar_garrafas_rum(1000000)
+    # Medição do tamanho do arquivo
+    file_size = os.path.getsize("garrafas-rum.json")
+    
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    
+    print(f"Tamanho do arquivo: {file_size} bytes")
+    print(f"Tempo de execução: {elapsed_time:.2f} segundos")
 
-with open("garrafas-rum.json", "w") as arquivo:
-    info = {
-        "version": "1.0",
-        "author": "Zeh Sobrinho",
-        "date": time.strftime("%Y-%m-%d %H:%M:%S"),
-        "data": garrafas_rum
-    }
-    json.dump(info, arquivo, indent=2)
+    # Medição dos ciclos
+    # perf stat -e cycles garrafas-rum.json
 
-# Medição do tamanho do arquivo
-file_size = os.path.getsize("garrafas-rum.json")
+    # Medição do consumo de energia
+    # perf stat -e power/energy garrafas-rum.json
 
-end_time = time.time()
-elapsed_time = end_time - start_time
-
-print(f"Tamanho do arquivo: {file_size} bytes")
-print(f"Tempo de execução: {elapsed_time:.2f} segundos")
-
-# Medição dos ciclos
-# perf stat -e cycles garrafas-rum.json
-
-# Medição do consumo de energia
-# perf stat -e power/energy garrafas-rum.json
-
-{'numero_cpus': 2, 'total_memoria': 13609451520, 'total_armazenamento': 83955703808, 'uso_cpu': 0.0, 'uso_memoria': 1.799904894330378, 'uso_armazenamento': 33.5, 'uso_rede': 100.0}
-Tamanho do arquivo: 440239506 bytes
-Tempo de execução: 36.52 segundos gcolab. 
+    {'numero_cpus': 2, 
+    'total_memoria': 13609451520, 
+    'total_armazenamento': 83955703808, 
+    'uso_cpu': 0.0, 
+    'uso_memoria': 1.799904894330378, 
+    'uso_armazenamento': 33.5, 'uso_rede': 100.0}
+    Tamanho do arquivo: 440239506 bytes
+    Tempo de execução: 36.52 segundos gcolab. 
 """
 
 
