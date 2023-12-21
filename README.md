@@ -233,6 +233,8 @@ puclique os resultados no fork ja relizado de : https://github.com/scoobiii/Deep
     # Medição do consumo de energia
     # perf stat -e power/energy garrafas-rum.json
 
+
+    """
     {'numero_cpus': 2, 
     'total_memoria': 13609451520, 
     'total_armazenamento': 83955703808, 
@@ -241,7 +243,7 @@ puclique os resultados no fork ja relizado de : https://github.com/scoobiii/Deep
     'uso_armazenamento': 33.5, 'uso_rede': 100.0}
     Tamanho do arquivo: 440239506 bytes
     Tempo de execução: 36.52 segundos gcolab. 
-"""
+    """
 
 
 """
