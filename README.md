@@ -96,18 +96,18 @@ faça um fork: https://github.com/scoobiii/DeepRinha
     """
 
 
-"""
-Total de núcleos do sistema: 2
--Número de núcleos em execução durante o cálculo primo: 1
--Percentual de uso da CPU durante o programa: 57.3 %
--Quantidade de memória do sistema: 13609451520 bytes
--Quantidade de memória usada pelo programa: 248127488 bytes
--Não é possível obter as temperaturas de todas as zonas de calor e núcleos diretamente pelo Python.
--Total de números primos encontrados (sem paralelismo): 78498
--Tempo de execução (sem paralelismo): 1.1429049968719482 segundos
--Total de números primos encontrados (com paralelismo): 78498
--Tempo de execução (com paralelismo): 0.43377685546875 segundos
-"""
+    """
+    Total de núcleos do sistema: 2
+    -Número de núcleos em execução durante o cálculo primo: 1
+    -Percentual de uso da CPU durante o programa: 57.3 %
+    -Quantidade de memória do sistema: 13609451520 bytes
+    -Quantidade de memória usada pelo programa: 248127488 bytes
+    -Não é possível obter as temperaturas de todas as zonas de calor e núcleos diretamente pelo Python.
+    -Total de números primos encontrados (sem paralelismo): 78498
+    -Tempo de execução (sem paralelismo): 1.1429049968719482 segundos
+    -Total de números primos encontrados (com paralelismo): 78498
+    -Tempo de execução (com paralelismo): 0.43377685546875 segundos
+    """
 
 """
 Passo 5: descubra o erro da classe faça crud completo, crie e insira 1.000.000 de garrafas de rum com 1,5 CPU e 3 GB de ram app 100% in memory em menos de 10 segundos
