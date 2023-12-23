@@ -610,15 +610,15 @@ Só que essas 600 não são atendidas ao mesmo tempo. Não tem caixa suficiente,
 36:04
 Do lado da cozinha, o banco de dados, cada cozinheiro extra exige pelo menos uns 3 MB de RAM de espaço e vai consumir CPU.
 36:11
-Mas a cozinha, é limitada. Lembra da regra da rinha? No máximo 1.5 CPU.
+# Mas a cozinha, é limitada. Lembra da regra da rinha? No máximo 1.5 CPU.
 36:16
 Não adianta aumentar cozinheiro infinitamente, que a cozinha não aguenta. Se falarmos pros caixas tirarem quantos pedidos conseguirem, rapidamente esses pedidos vão
 36:25
 ficar empilhados porque não tem cozinheiro suficiente pra atender. A vontade é aumentar os cozinheiros, o pool de conexões.
 36:33
-Digamos, temos duas instâncias da aplicação, os caixas, e cada um vai poder tirar até 100 pedidos de uma só vez.
+# Digamos, temos duas instâncias da aplicação, os caixas, e cada um vai poder tirar até 100 pedidos de uma só vez.
 36:40
-Então 200 pedidos. Mas não tem como ter 400 cozinheiros. Primeiro porque eles ocupam espaço, 3 mega cada já vai dar no mínimo 1.2 gigabytes
+# Então 200 pedidos. Mas não tem como ter 400 cozinheiros. Primeiro porque eles ocupam espaço, 3 mega cada já vai dar no mínimo 1.2 gigabytes (duas instancias?)
 36:48
 de RAM. Mas beleza, o estabelecimento inteiro aguenta 3 gigabytes que é o limite imposto pela rinha
 36:53
@@ -628,7 +628,7 @@ cada cozinheiro vai demorar mais e mais tempo pra atender cada pedido. Entendera
 37:04
 Então o cenário é assim: a porta do estabelecimento permite entrar todo mundo de uma só vez, mil pessoas, 10 mil pessoas, entra tudo.
 37:12
-Só tem 2 caixas, duas instâncias. Mesmo tirando pedidos rápido, fica tudo acumulado esperando.
+# Só tem 2 caixas, duas instâncias. Mesmo tirando pedidos rápido, fica tudo acumulado esperando...(gargalo no banco porra!!)
 37:17
 Não adianta contratar mais cozinheiro, porque a cozinha é limitada, e quanto mais cozinheiros tentamos colocar, mais cada cozinheiro demora.
 37:25
@@ -641,7 +641,34 @@ perder a paciência e ir embora. São as requisições perdidas ou knockouts. A 
 Em vez de fazer o nginx aceitar quantas pessoas puder, fazemos diferente: limitamos o tamanho
 37:48
 da porta. Digamos, no máximo 1000 pessoas. O NGINX coloca um sistema de senhas do lado de fora e vai deixando entrar só 1000 de
-37:56
+37:56 
+# (1000 CRUDS a cada 1,8 segundos, maximo 50.000 inserções em 3 minutos)
+# gravo 1.000.000 garrafas de rum poplixo em 
+[{'numero_cpus': 2, 
+'total_memoria': 13609451520, 
+'total_armazenamento': 83955703808, 
+'uso_cpu': 1.0, 'uso_memoria': 8.059272501820852, 
+'uso_armazenamento': 34.1, 
+'uso_rede': 100.0}
+Tamanho do arquivo: 44.0239.027 bytes
+Tempo de execução: 42.28 segundos
+
+{"id": "7f16a0d3-8e04-4f63-aa70-1f31d93585e0",
+      "marca": "Barbados Rum",
+      "modelo": "10 Anos",
+      "rotulo": "Rum caribenho",
+      "ano": 2012,
+      "produtor": "Barbados Rum Company",
+      "origem": "Cuba",
+      "qr_code": "QR_CODE_0441cf43-b675-46b0-b9f0-14cfef4c8085",
+      "casco_plimm": 4.357372313712965,
+      "cripto_conta": "",
+      "posicao_geografica": "",
+      "status_volta": false}
+
+
+] 
+
 cada vez, de forma mais ordenada. É igual num Poupa Tempo ou no seu banco. Pega a senha, senta e espera ser chamado.
 38:04
 Agora os caixas atendem menos pessoas de uma vez, mais ordenado, e tiram menos pedidos de uma só vez, digamos, no máximo 50 em vez de 100 ou 200.
@@ -675,7 +702,7 @@ Em vez de consertar no lugar certo, eu ficava tentando compensar em outros lugar
 39:40
 no NGINX. No próximo episódio vou explicar como eu poderia ter evitado essa confusão. Vamos deixar anotado aqui.
 39:47
-Depois que descobri isso, e li o tweet do Leandro, reconfigurei o nginx pra faixa de 1000 workers de conexão e depois diminuí o número de cozinheiros no pool de conexões
+"Depois que descobri isso, e li o tweet do Leandro, reconfigurei o nginx pra faixa de 1000 workers de conexão e depois diminuí o número de cozinheiros no pool de conexões? *5w2h & swot dessa porra pra descobrir quanto come de recursos*
 39:56
 pra uns 40. O problema nem era o máximo de conexões, era a compensação excessiva que tava fazendo
 40:02
@@ -697,7 +724,7 @@ Faixa de 39 mil inserts, quase batendo os 40 mil que queria. O cenário que desc
 41:03
 que demonstra que o problema não é a capacidade de atendimento do caixa, ou de cozinhar dos cozinheiros: é de gerenciar o fluxo de requisições, das pessoas ou sessões.
 41:13
-É quando sabemos que o problema principal é gerenciar I/O, entrada e saída.
+# É quando sabemos que o problema principal é gerenciar I/O, entrada e saída.
 41:19
 Nós que somos mais experientes já deveríamos ter parado pra pensar nisso primeiro, mas assumimos errado no começo e essa hipótese errada nos fez perder muito tempo.
 41:29
@@ -713,15 +740,16 @@ ficar esperando de braços cruzados esperando; enquanto o cozinheiro tá ocupado
 42:08
 limpar o balcão. Não precisa esperar o prato chegar pra depois fazer tudo isso, dá pra fazer em paralelo.
 42:13
-É pra isso que servem threads ou os async/await de várias linguagens, como Javascript no
+"É pra isso que servem threads ou os async/await de várias linguagens, como Javascript no
 42:19
+#compilação just time? 
 Node.js. Nesse ponto eu já tinha visto o MrPowerGamer e outros colaboradores como o Bruno Borges
 42:25
 conseguindo subir Kotlin e Java pro mesmo nível do Rust. Já vi o Leandro e o Lazaro subindo Ruby e Rails pra perto do mesmo nível, faixa dos
 42:34
 40 mil inserts. Eu mesmo já tinha conseguido subir Crystal e Rails. Foi quando minha intuição dizia que a maioria dos participantes, se tivessem conhecimento
 42:43
-de tudo que a gente descobriu até agora, seriam capazes de chegar perto desses 40 mil inserts ou até bater o máximo dos 46 mil e quinhentos do Rust do Vinicius.
+# de tudo que a gente descobriu até agora, seriam capazes de chegar perto desses 40 mil inserts ou até bater o máximo dos 46 mil e quinhentos do Rust do Vinicius.
 42:53
 Alguns não gostaram de ouvir isso, porque agora aquele bullying contra o Java ou a fanboyisse
 CAP 08 - Aprendendo com Node.js - Muita Refatoração
@@ -1342,14 +1370,34 @@ mais leve. Ele dobrou o teste, senão todo mundo ia passar. Mas mesmo dobrando, 
 Todos os teste que fiz até agora foi com essa versão já dobrada. É importante ter essas ordens de grandeza em mente.
 1:18:45
 Vamos deixar anotado porque preciso explicar isso pra vocês, o que significa sessões simultâneas, tempo de resposta, throughput.
-1:18:52
+#1:18:52
 Faixa de 50 mil linhas numa tabela é super leve pra um banco de dados como Postgres.
+
+# Pausa e pitakos no Akita 
+# 1 [queridos maruj@s, 
+
+1) crud, banco de dados sql/nosql, 3 gb ram, 1,5 cpu, 2 apis redundantes, balanceador de carga NGINX conseguem fazer 50.000 inserções em um minuto.
+
+2) crud, duas apis e persistência 100% inmemory, prevayler em java, protobuff em c,  redundantes 100km disto entre si, snapshot a cada minuto, 500.000 inserções por minuto por api,  total, 1.000.000 de inserção por minuto.
+
+o marujo que tiver a implementação, sob no github como rinha web3 100% in memory]
+# 2 [
+@bixbybot
+há 3 dias
+quanto os dados tratados pelo crud armazenados de 50.000 inserts representa em relação a 1,5 CPU e 3 GB?
+quanto manipular estes dados representam de 3 GB e 1,5 CPU?
+cheirando overhead de linhas de código?
+gflops/watts baixo....?
+cheirando....rinha de bot end agi pra corrigir as lambanças --->]
 1:18:58
 Só vamos sentir que ele tá pedindo água quando atingirmos faixa de milhões de linhas e isso se estiver sem índices adequados. 600 sessões fazendo requisições, não é
 1:19:08
 pesado. Mesmo com a restrição de menos de 1 CPU no Docker Compose. 1000 sessões simultâneas
 1:19:14
-continua não sendo pesado. A viagem de volta de Gramado foi cansativa. Varamos noite no domingo pra segunda.
+continua não sendo pesado. 
+
+
+A viagem de volta de Gramado foi cansativa. Varamos noite no domingo pra segunda.
 CAP 18 - Testando o One Piece! Todos ao Primeiro Lugar!
 1:19:21
 Estava de carro alugado e saímos quase 2h da manhã de Gramado pra devolver o carro às 4h em Porto Alegre e pegar o vôo de volta pra Congonhas, em São Paulo às 6h.
