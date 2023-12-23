@@ -1,0 +1,144 @@
+ugomarques
+/
+rinha-backend-2023-q3-java
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+hugomarques/rinha-backend-2023-q3-java
+ 4 branches
+ 0 tags
+Latest commit
+@hugomarques
+hugomarques Add readme
+884efab
+on Aug 23
+Git stats
+ 20 commits
+Files
+Type
+Name
+Latest commit message
+Commit time
+.mvn/wrapper
+Arm docker + Multi-stage docker image
+4 months ago
+config
+Migrate to WebFlux
+4 months ago
+src/main
+Migrate to WebFlux
+4 months ago
+stress-test
+Add stress-tests
+4 months ago
+.DS_Store
+Working on docker with postgres
+4 months ago
+.gitignore
+Initial commit, working with H2 database
+4 months ago
+Dockerfile
+Fix Dockerfile for Intel && avoid persistence on redis betweens runs
+4 months ago
+Dockerfile.arm
+Arm docker + Multi-stage docker image
+4 months ago
+LICENSE
+Create LICENSE
+4 months ago
+README.md
+Add readme
+4 months ago
+docker-compose-arm.yml
+Arm docker + Multi-stage docker image
+4 months ago
+docker-compose-local.yml
+Migrate to WebFlux
+4 months ago
+docker-compose.yml
+Migrate to WebFlux
+4 months ago
+mvnw
+Arm docker + Multi-stage docker image
+4 months ago
+mvnw.cmd
+Arm docker + Multi-stage docker image
+4 months ago
+nginx.conf
+Passando no limite da rinha
+4 months ago
+pom.xml
+Migrate to WebFlux
+4 months ago
+README.md
+rinha-backend-2023-q3-java
+Backend pra rinha backend 2023 q3.
+
+Mais informações sobre a rinha no Repo: https://github.com/zanfranceschi/rinha-de-backend-2023-q3
+
+Implementação
+Esse repo tem 3 implementações (completas ou não).
+
+A branch spring-tradicional contém uma implementação feijão com arroz:
+
+Spring boot
+Postgresql
+Redis
+Uso de Java 21 pra usar o Project Loom (veja o arquivo ThreadConfig.java)
+A branch jdbc contém as seguintes mudanças:
+
+Spring boot
+Spring Data Jdbc
+Uso de Java 21 também pelo project Loom.
+A branch main/flux implementa a solução com o paradigma reativo:
+
+Spring Boot Webflux
+R2dbc
+Postgresql (e o seu devido driver reativo)
+Redis
+Requisitos
+Para rodar, precisamos ter instalado:
+
+docker
+Gatling (versão usada 3.9.5
+Para rodar localmente
+Subir o ambiente (Postgresql + Redis) com o docker :
+Na raiz do projeto, rodar:
+
+ docker compose -f docker-compose-local.yml up 
+
+Subir a aplicação do Spring Boot (pela IDE ou por terminal)
+ MAVEN_OPTS="-Xmx1500m --enable-preview"  mvn spring-boot:run
+
+Rode os testes do Galting
+  cd stress-test ./run-tests.sh
+
+Tudo isso dá para ser feito dentro do IntelliJ tb se preferir.
+
+A cada teste remova os volumes criados pelo Docker.
+
+Para rodar tudo junto (como limitação de CPU)
+Subir o ambiente (Postgresql + Redis) com o docker :
+Na raiz do projeto, rodar:
+
+  docker compose up --build
+
+Rode os testes do Galting
+  cd stress-test ./run-tests.sh
+
+(Opcional) Recomendo monitorar seus containers através do comando:
+docker stats
+
+Referências
+https://github.com/willy-r/rinha-de-backend-2023-javinha
+https://github.com/boaglio/rinha-backend-2023-q3-java
+https://github.com/brunoborges/rinha-app
+Agradecimentos
+Aos @BrunoBorges pela mentoria, ao @Boaglio pela base pra rodar reativo.
+
+E claro, ao grande @zanfranceschi por organizar esse desafio.
