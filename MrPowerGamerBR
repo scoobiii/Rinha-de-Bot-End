@@ -1,0 +1,11 @@
+#booora começar com a imagem do MrPowerGameBR, a mais divertida...rsrs
+https://poe.com/s/KTkmL4QylnXTFk94xU4u
+
+
+sobrinhosj@cloudshell:~/rinha-de-backend-2023-q3/participantes/MrPowerGamerBR (centered-router-362118)$ docker ps
+CONTAINER ID   IMAGE                                             COMMAND                  CREATED         STATUS                   PORTS      NAMES
+c0e9e55c0403   ghcr.io/mrpowergamerbr/rinha-de-backend-2023-q3   "java -cp @/app/jib-…"   3 minutes ago   Up 3 minutes                        mrpowergamerbr-rinha1-1
+1b2b150bcc87   ghcr.io/mrpowergamerbr/rinha-de-backend-2023-q3   "java -cp @/app/jib-…"   3 minutes ago   Up 3 minutes                        mrpowergamerbr-rinha2-1
+dc155431f8f0   postgres                                          "docker-entrypoint.s…"   3 minutes ago   Up 3 minutes (healthy)   5432/tcp   mrpowergamerbr-db-1
+sobrinhosj@cloudshell:~/rinha-de-backend-2023-q3/participantes/MrPowerGamerBR (centered-router-362118)$ 
+
