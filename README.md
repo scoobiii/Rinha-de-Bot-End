@@ -1,55 +1,53 @@
 # 26 de de dezembro de 2023
 volta......
 
-
+joaovertelo:workspaces/rinha-backend-2023-q3-micronaut {
+├── Dockerfile
+├── README.md
+├── aot-jar.properties
+├── docker-compose-local.yml
+├── docker-compose.yml
+├── micronaut-cli.yml
+├── mvnw
+├── mvnw.bat
+├── nginx.conf
+├── pom.xml
+├── sql
+│   └── create_tables.sql
+└── src
+    └── main
+        ├── java
+        │   └── com
+        │       └── devertelo
+        │           ├── Application.java
+        │           ├── application
+        │           │   └── exceptions
+        │           │       └── AlreadyExistsException.java
+        │           ├── controller
+        │           │   ├── Pessoa.java
+        │           │   └── PessoaController.java
+        │           ├── domain
+        │           │   ├── PessoaService.java
+        │           │   └── PessoaServiceImpl.java
+        │           └── infrastructure
+        │               ├── PessoaEntity.java
+        │               └── PessoaRepository.java
+        └── resources
+            ├── application-docker.properties
+            ├── application-docker.yml
+            ├── application.properties
+            └── logback.xml
+            }
 
 Diretório atual: Você está localizado no diretório /workspaces/rinha-backend-2023-q3-micronaut em um ambiente GitDevOp.
 
 pausa para.....
 ------------------####------------------------------
-
+cd depot_tools/
 bash: cd: nepTune: No such file or directory
 ~/depot_tools $ ls
 BUILD_OWNERS                         clang_format.py                   git-find-releases              git_rebase_update.py       ninjalog.README.md            roll-dep.bat
-CROS_OWNERS                          codereview.settings               git-footers                    git_rename_branch.py       ninjalog_uploader.py          roll_dep.py
-DIR_METADATA                         compile_single_file               git-freeze                     git_reparent_branch.py     ninjalog_uploader_wrapper.py  rustfmt.py
-LICENSE                              compile_single_file.bat           git-gs                         git_retry.py               owners_client.py              scm.py
-LUCI_OWNERS                          compile_single_file.py            git-hyper-blame                git_squash_branch.py       owners_finder.py              setup_color.py
-OWNERS                               cpplint.bat                       git-map                        git_upstream_diff.py       pinpoint                      siso
-PRESUBMIT.py                         cpplint.py                        git-map-branches               gn                         pinpoint.bat                  siso.bat
-README.gclient.md                    cpplint_chromium.py               git-mark-merge-base            gn.bat                     post_build_ninja_summary.py   siso.py
-README.git-cl.md                     cros                              git-migrate-default-branch     gn.py                      presubmit_canned_checks.py    split_cl.py
-README.md                            cros_python2.vpython              git-nav-downstream             goma_auth                  presubmit_support.py          subcommand.py
-RECLIENT_OWNERS                      cros_sdk                          git-nav-upstream               goma_auth.bat              profile.xml                   subprocess2.py
-WATCHLISTS                           crosjobs                          git-new-branch                 goma_ctl                   prpc                          swift-format
-auth.py                              detect_host_arch.py               git-number                     goma_ctl.bat               prpc.bat                      swift_format.py
-autoninja                            dirmd                             git-rebase-update              gsutil.py                  pylint-2.17                   testing_support
-autoninja.bat                        dirmd.bat                         git-rename-branch              gsutil.py.bat              pylint-2.17.bat               tests
-autoninja.py                         download_from_google_storage      git-reparent-branch            gsutil.vpython3            pylint-2.6                    third_party
-autosiso                             download_from_google_storage.bat  git-retry                      hooks                      pylint-2.6.bat                update_depot_tools
-autosiso.bat                         download_from_google_storage.py   git-runhooks                   infra                      pylint-2.7                    update_depot_tools.bat
-autosiso.py                          ensure_bootstrap                  git-squash-branch              infra_to_superproject      pylint-2.7.bat                update_depot_tools_toggle.py
-bazel                                fetch                             git-templates                  infra_to_superproject.bat  pylint_main.py                upload_metrics.py
-bazel.py                             fetch.bat                         git-thaw                       infra_to_superproject.py   pylintrc                      upload_to_google_storage.py
-bb                                   fetch.py                          git-upstream-diff              isort                      pylintrc-2.17                 utils.py
-bb.bat                               fetch_configs                     git_cache.py                   led                        python-bin                    vpython
-black                                fix_encoding.py                   git_cl.py                      led.bat                    python2-bin                   vpython.bat
-bootstrap                            gclient                           git_cl_completion.sh           lockfile.py                python_runner.sh              vpython3
-bootstrap_python3                    gclient-new-workdir.py            git_common.py                  luci-auth                  rdb                           vpython3.bat
-breakpad.py                          gclient.bat                       git_completion.sh              luci-auth.bat              rdb.bat                       watchlists.py
-cbuildbot                            gclient.py                        git_dates.py                   lucicfg                    rdb_wrapper.py                weekly
-cipd                                 gclient_completion.sh             git_drover.py                  lucicfg.bat                recipes                       whitespace.txt
-cipd.bat                             gclient_eval.py                   git_find_releases.py           mac_toolchain              reclient_helper.py            win32imports.py
-cipd_bin_setup.bat                   gclient_paths.py                  git_footers.py                 man                        reclient_metrics              win_toolchain
-cipd_bin_setup.sh                    gclient_scm.py                    git_freezer.py                 metadata                   reclient_metrics.README.md    wtf
-cipd_client_version                  gclient_utils.py                  git_hyper_blame.py             metrics.README.md          reclient_metrics.bat          yapf
-cipd_client_version.digests          gerrit                            git_map.py                     metrics.py                 reclient_metrics.py           yapf.bat
-cipd_manifest.txt                    gerrit_client.py                  git_map_branches.py            metrics_utils.py           reclientreport                zsh-goodies
-cipd_manifest.versions               gerrit_util.py                    git_mark_merge_base.py         my_activity.py             reclientreport.bat
-cipd_manifest_cros_python2.txt       git-cache                         git_migrate_default_branch.py  ninja                      reclientreport.py
-cipd_manifest_cros_python2.versions  git-cl                            git_nav_downstream.py          ninja.bat                  repo
-clang-format                         git-crrev-parse                   git_new_branch.py              ninja.py                   repo_launcher
-clang-format.bat                     git-drover                        git_number.py                  ninja_reclient.py          roll-dep
+
 ~/depot_tools $ pwd
 /data/data/com.termux/files/home/depot_tools
 ~/depot_tools $ mkdir ~ /nepTune && cd ~/ nepTune
