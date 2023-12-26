@@ -1,43 +1,43 @@
 # 26 de de dezembro de 2023
 volta......
 
-joaovertelo:workspaces/rinha-backend-2023-q3-micronaut {
-├── Dockerfile
-├── README.md
-├── aot-jar.properties
-├── docker-compose-local.yml
-├── docker-compose.yml
-├── micronaut-cli.yml
-├── mvnw
-├── mvnw.bat
-├── nginx.conf
-├── pom.xml
-├── sql
-│   └── create_tables.sql
-└── src
-    └── main
-        ├── java
-        │   └── com
-        │       └── devertelo
-        │           ├── Application.java
-        │           ├── application
-        │           │   └── exceptions
-        │           │       └── AlreadyExistsException.java
-        │           ├── controller
-        │           │   ├── Pessoa.java
-        │           │   └── PessoaController.java
-        │           ├── domain
-        │           │   ├── PessoaService.java
-        │           │   └── PessoaServiceImpl.java
-        │           └── infrastructure
-        │               ├── PessoaEntity.java
-        │               └── PessoaRepository.java
-        └── resources
-            ├── application-docker.properties
-            ├── application-docker.yml
-            ├── application.properties
-            └── logback.xml
-            }
+        joaovertelo:workspaces/rinha-backend-2023-q3-micronaut {
+        ├── Dockerfile
+        ├── README.md
+        ├── aot-jar.properties
+        ├── docker-compose-local.yml
+        ├── docker-compose.yml
+        ├── micronaut-cli.yml
+        ├── mvnw
+        ├── mvnw.bat
+        ├── nginx.conf
+        ├── pom.xml
+        ├── sql
+        │   └── create_tables.sql
+        └── src
+            └── main
+                ├── java
+                │   └── com
+                │       └── devertelo
+                │           ├── Application.java
+                │           ├── application
+                │           │   └── exceptions
+                │           │       └── AlreadyExistsException.java
+                │           ├── controller
+                │           │   ├── Pessoa.java
+                │           │   └── PessoaController.java
+                │           ├── domain
+                │           │   ├── PessoaService.java
+                │           │   └── PessoaServiceImpl.java
+                │           └── infrastructure
+                │               ├── PessoaEntity.java
+                │               └── PessoaRepository.java
+                └── resources
+                    ├── application-docker.properties
+                    ├── application-docker.yml
+                    ├── application.properties
+                    └── logback.xml
+                    }
 
 Diretório atual: Você está localizado no diretório /workspaces/rinha-backend-2023-q3-micronaut em um ambiente GitDevOp.
 
