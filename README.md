@@ -7,7 +7,7 @@
        Sobre
        Prevayler é um persistence layer para o Java desenvolvido por Klaus Wuestefeld.
        
-<a href="https://www.youtube.com/watch?v=WKKlcErWtng&t=17s"> 
+<a href="https://www.youtube.com/watch?v=WKKlcErWtng&t"> 
 <img src="https://prevayler.org/prevayler.png" width="200"> 
 </a> 
 
