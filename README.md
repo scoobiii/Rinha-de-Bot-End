@@ -39,14 +39,14 @@ volta......
                     └── logback.xml
                     }
 
-Diretório atual: Você está localizado no diretório /workspaces/rinha-backend-2023-q3-micronaut em um ambiente GitDevOp.
-
-pausa para.....
+                Diretório atual: Você está localizado no diretório /workspaces/rinha-backend-2023-q3-micronaut em um ambiente GitDevOp.
+                
+                pausa para.....
 ------------------####------------------------------
                 cd depot_tools/
                 bash: cd: nepTune: No such file or directory
                 ~/depot_tools $ ls
-                BUILD_OWNERS                         clang_format.py                   git-find-releases              git_rebase_update.py       ninjalog.README.md            roll-dep.bat
+                BUILD_OWNERS                         clang_format.py                   git-find-releases              git_rebase_update.py       ninjalog.README.md            roll-                        dep.bat
                 
                 ~/depot_tools $ pwd
                 /data/data/com.termux/files/home/depot_tools
