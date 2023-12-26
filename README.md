@@ -1,4 +1,34 @@
 # 26 de de dezembro de 2023
+
+
+       pausa, inspiração
+       
+       Prevayler
+       Sobre
+       Prevayler é um persistence layer para o Java desenvolvido por Klaus Wuestefeld.
+       
+<a href="https://www.youtube.com/watch?v=WKKlcErWtng&t=17s"> 
+<img src="https://prevayler.org/prevayler.png" width="200"> 
+</a> 
+
+**click na imagem para acessar vídeo onde Klaus explica os principais conceitos e características do Prevayler**.
+
+       
+       Características
+       Objetos Java limpos, sem dependência com bancos de dados
+       Muito rápido com desempenho constante
+       Alta disponibilidade com replicação automática
+       Versionamento de dados para recuperação de erros
+       API simples e elegante
+       Uso
+       Basta adicionar a dependência do Prevayler e codificar classes standard Java. O Prevayler salvará automaticamente 
+       os objetos no disco.
+       
+       Documentação
+       Saiba mais em https://www.prevayler.org
+
+------------------------------------#-----------------------------
+
 volta......
 
 
