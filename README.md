@@ -43,21 +43,21 @@ Diretório atual: Você está localizado no diretório /workspaces/rinha-backend
 
 pausa para.....
 ------------------####------------------------------
-cd depot_tools/
-bash: cd: nepTune: No such file or directory
-~/depot_tools $ ls
-BUILD_OWNERS                         clang_format.py                   git-find-releases              git_rebase_update.py       ninjalog.README.md            roll-dep.bat
-
-~/depot_tools $ pwd
-/data/data/com.termux/files/home/depot_tools
-~/depot_tools $ mkdir ~ /nepTune && cd ~/ nepTune
-mkdir: cannot create directory ‘/data/data/com.termux/files/home’: File exists
-mkdir: cannot create directory ‘/nepTune’: Read-only file system
-~/depot_tools $ mkdir /nepTune && cd /nepTune
-mkdir: cannot create directory ‘/nepTune’: Read-only file system
-~/depot_tools $ mkdir nepTune && cd nepTune
-~/depot_tools/nepTune $ ls
-~/depot_tools/nepTune $ fetch --nohooks android
+                cd depot_tools/
+                bash: cd: nepTune: No such file or directory
+                ~/depot_tools $ ls
+                BUILD_OWNERS                         clang_format.py                   git-find-releases              git_rebase_update.py       ninjalog.README.md            roll-dep.bat
+                
+                ~/depot_tools $ pwd
+                /data/data/com.termux/files/home/depot_tools
+                ~/depot_tools $ mkdir ~ /nepTune && cd ~/ nepTune
+                mkdir: cannot create directory ‘/data/data/com.termux/files/home’: File exists
+                mkdir: cannot create directory ‘/nepTune’: Read-only file system
+                ~/depot_tools $ mkdir /nepTune && cd /nepTune
+                mkdir: cannot create directory ‘/nepTune’: Read-only file system
+                ~/depot_tools $ mkdir nepTune && cd nepTune
+                ~/depot_tools/nepTune $ ls
+                ~/depot_tools/nepTune $ fetch --nohooks android
 
 
 
