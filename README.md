@@ -40,9 +40,9 @@ volta......
                     }
 
                 Diretório atual: Você está localizado no diretório /workspaces/rinha-backend-2023-q3-micronaut em um ambiente GitDevOp.
-                
+                 ------------------####------------------------------
                 pausa para.....
-------------------####------------------------------
+               
                 cd depot_tools/
                 bash: cd: nepTune: No such file or directory
                 ~/depot_tools $ ls
@@ -61,7 +61,7 @@ volta......
 
 
 
-------------------####------------------------------
+                ------------------####------------------------------
 
 
 # Rinha de Bot End
