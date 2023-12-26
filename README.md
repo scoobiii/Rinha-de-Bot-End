@@ -1,7 +1,10 @@
 # 26 de de dezembro de 2023
 volta......
 
-        joaovertelo:workspaces/rinha-backend-2023-q3-micronaut {
+
+        **shell**
+        
+        - joaovertelo:workspaces/rinha-backend-2023-q3-micronaut {
         ├── Dockerfile
         ├── README.md
         ├── aot-jar.properties
@@ -37,16 +40,65 @@ volta......
                     ├── application-docker.yml
                     ├── application.properties
                     └── logback.xml
+                    13 directories, 23 files
+                    
                     }
 
+                        - joaovertelo:docker compose up -d {
+                        @scoobiii ➜ /workspaces/rinha-backend-2023-q3-micronaut (main) $ pwd
+                        /workspaces/rinha-backend-2023-q3-micronaut
+                        @scoobiii ➜ /workspaces/rinha-backend-2023-q3-micronaut (main) $ pwd
+                        /workspaces/rinha-backend-2023-q3-micronaut
+                        @scoobiii ➜ /workspaces/rinha-backend-2023-q
+                        @scoobiii ➜ /workspaces/rinha-backend-2023-q3-micronaut (main) $ pwd
+                        /workspaces/rinha-backend-2023-q3-micronaut
+                        @scoobiii ➜ /workspaces/rinha-backend-2023-q3-micronaut (main) $ ls
+                        Dockerfile  aot-jar.properties        docker-compose.yml  mvnw      nginx.conf  sql
+                        README.md   docker-compose-local.yml  micronaut-cli.yml   mvnw.bat  pom.xml     src
+                        @scoobiii ➜ /workspaces/rinha-backend-2023-q3-micronaut (main) $ docker compose up
+                        [+] Running 36/9
+                         ✔ api-1 4 layers [⣿⣿⣿⣿]      0B/0B      Pulled                              8.2s 
+                         ✔ nginx 7 layers [⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled                          8.5s 
+                         ✔ api-2 Pulled                                                                8.1s 
+                         ✔ cache 7 layers [⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled                          9.3s 
+                         ✔ postgres-db 13 layers [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled           14.5s 
+                                                                                                                                       
+                        [+] Running 6/6
+                         ✔ Network rinha-backend_app-network     Created                               0.1s 
+                         ✔ Container rinha-backend-micronaut-db  Created                               0.2s 
+                         ✔ Container rinha-backend-cache-1       Created                               0.2s 
+                         ✔ Container rinha-backend-api-2-1       Created                               0.3s 
+                         ✔ Container rinha-backend-api-1-1       Created                               0.2s 
+                         ✔ Container rinha-backend-nginx-1       Created                               0.1s 
+                       }
+
+                        - joaovertelo:docker ps {
+                         rinha-backend-micronaut-db  | 2023-12-26 18:28:02.731 UTC [56] LOG:  checkpoint starting: time
+                         rinha-backend-micronaut-db  | 2023-12-26 18:28:07.375 UTC [56] LOG:  checkpoint complete: wrote 48 buffers (0.3%); 
+                         0 WAL file(s) added, 0 removed, 0 recycled; write=4.541 s, sync=0.051 s, total=4.645 s; sync files=14, longest=0.013 s, 
+                         average=0.004 s; distance=261 kB, estimate=261 kB; lsn=0/15568D8, redo lsn=0/15568A0
+                         
+                        cache-1                     | 1:M 26 Dec 2023 19:13:09.252 * 100 changes in 300 seconds. Saving...
+                        cache-1                     | 1:M 26 Dec 2023 19:13:09.252 * Background saving started by pid 626
+                        cache-1                     | 626:C 26 Dec 2023 19:13:09.273 * DB saved on disk
+                        cache-1                     | 626:C 26 Dec 2023 19:13:09.274 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+                        cache-1                     | 1:M 26 Dec 2023 19:13:09.353 * Background saving terminated with success   
+                        }
+
+                        
+                
+                
+                
                 Diretório atual: Você está localizado no diretório /workspaces/rinha-backend-2023-q3-micronaut em um ambiente GitDevOp.
-                 ------------------####------------------------------
+                
+                ------------------####------------------------------
                 pausa para.....
                
                 cd depot_tools/
                 bash: cd: nepTune: No such file or directory
                 ~/depot_tools $ ls
-                BUILD_OWNERS                         clang_format.py                   git-find-releases              git_rebase_update.py       ninjalog.README.md            roll-                        dep.bat
+                BUILD_OWNERS                         clang_format.py                   git-find-releases              git_rebase_update.py
+                ninjalog.README.md                 roll-                        dep.bat
                 
                 ~/depot_tools $ pwd
                 /data/data/com.termux/files/home/depot_tools
@@ -58,8 +110,6 @@ volta......
                 ~/depot_tools $ mkdir nepTune && cd nepTune
                 ~/depot_tools/nepTune $ ls
                 ~/depot_tools/nepTune $ fetch --nohooks android
-
-
 
                 ------------------####------------------------------
 
