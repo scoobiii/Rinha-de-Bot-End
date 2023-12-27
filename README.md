@@ -41,9 +41,9 @@ Aqui pensando...é...somentes...se (o jogo é jogado, lambari é pescado e "se" 
 
                      #------------------------------------------#
 
-bard []
-gpt
-javaman[]
+                                  bard []
+                                  gpt
+                                  javaman[]
                      
                      #------------------------------------------#
 
