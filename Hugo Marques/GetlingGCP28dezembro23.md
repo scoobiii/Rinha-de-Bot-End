@@ -132,8 +132,12 @@ Tasks:  90 total,   1 running,  89 sleeping,   0 stopped,   0 zombie
 MiB Mem :  16002.5 total,  10411.8 free,   1897.4 used,   3693.4 buff/cache
 MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13749.8 avail Mem 
 
+
+**Docker cupim de ferro? fominha consome mais recuros alocados para as apis ou recursos do sistema?  127.6 sem crash? consome dos 1,5 CPU e 3 GB de RAM?
+por issos os miseros 54576 inserts maximos?**
+
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                           
-   # fominha 5755 root      20   0 3011064  54464   2680 S 127.6   0.3   0:34.23 docker-proxy                                                                                      
+    5755 root      20   0 3011064  54464   2680 S 127.6   0.3   0:34.23 docker-proxy                                                                                      
    5985 sobrinh+  10 -10 4783048 366884  26308 S  60.8   2.2   0:53.31 java                                                                                              
    5639 root      20   0 4233956 356932  23080 S  39.9   2.2   0:59.09 java                                                                                              
    5679 root      20   0 4233956 359496  22800 S  39.5   2.2   0:59.68 java                                                                                              
@@ -159,7 +163,7 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13749.8 avail Mem
     387 sobrinh+  10 -10   14468   4748   3580 S   0.0   0.0   0:00.01 sshd                                                                                              
     388 sobrinh+  10 -10    6816   3144   2904 S   0.0   0.0   0:00.00 bash    
 
-
+**docker fominha parte II**
 
     top - 05:48:40 up  1:48,  6 users,  load average: 1.97, 1.16, 1.28
 Tasks:  90 total,   1 running,  89 sleeping,   0 stopped,   0 zombie
