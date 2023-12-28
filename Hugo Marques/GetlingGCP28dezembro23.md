@@ -105,33 +105,32 @@ Use “gcloud config set project [PROJECT_ID]” to change to a different projec
       sobrinhosj@cloudshell:~ (centered-router-362118)$ 
 
 
-            sobrinh+    1115  0.0  0.0   6816  3168 pts/5    S<s+ 05:25   0:00 bash -c if [ -f /google/devshell/start-shell.sh ]; then   /google/devshell/start-shell.sh  ''  'centere
-            sobrinh+    1116  0.0  0.0   6816  3192 pts/5    S<+  05:25   0:00 /bin/bash /google/devshell/start-shell.sh  centered-router-362118  786597992 false
-            sobrinh+    1120  0.0  0.0   6744  3264 pts/5    S<+  05:25   0:00 tmux new-session -A -D -n cloudshell -s 786597992
-            sobrinh+    1121  0.0  0.0   9748  6700 pts/6    S<s+ 05:25   0:00 -bash
-            sobrinh+    1443  0.0  0.0  14468  4776 ?        S<   05:25   0:00 sshd: sobrinhosj@pts/7
-            sobrinh+    1457  0.0  0.0   6816  3148 pts/7    S<s+ 05:25   0:00 bash -c if [ -f /google/devshell/start-shell.sh ]; then   /google/devshell/start-shell.sh  ''  'centere
-            sobrinh+    1458  0.0  0.0   6816  3420 pts/7    S<+  05:25   0:00 /bin/bash /google/devshell/start-shell.sh  centered-router-362118  786599360 false
-            sobrinh+    1462  0.0  0.0   6744  3132 pts/7    S<+  05:25   0:00 tmux new-session -A -D -n cloudshell -s 786599360
-            sobrinh+    1463  0.0  0.0   9248  6208 pts/8    S<s  05:25   0:00 -bash
-            root        1826  0.0  0.0  14468  8744 ?        S<s  05:25   0:00 sshd: sobrinhosj [priv]
-            sobrinh+    1828  0.0  0.0  14468  4804 ?        S<   05:25   0:00 sshd: sobrinhosj@pts/9
-            sobrinh+    1829  0.0  0.0   6816  3148 pts/9    S<s+ 05:25   0:00 bash -c if [ -f /google/devshell/start-shell.sh ]; then   /google/devshell/start-shell.sh  ''  'centere
-            sobrinh+    1830  0.0  0.0   6816  3412 pts/9    S<+  05:25   0:00 /bin/bash /google/devshell/start-shell.sh  centered-router-362118  786603970 false
-            sobrinh+    1834  0.0  0.0   6744  3060 pts/9    S<+  05:25   0:00 tmux new-session -A -D -n cloudshell -s 786603970
-            sobrinh+    1835  0.0  0.0   9248  6268 pts/10   S<s+ 05:25   0:00 -bash
-            root        5428  0.0  0.0 1229588 3128 ?        Sl   05:32   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 6379 -container-ip 172.18.0.2 -container-p
-            root        5442  0.0  0.0 1155856 3236 ?        Sl   05:32   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 5432 -container-ip 172.18.0.3 -container-p
-            root        5466  0.0  0.0 720072  9712 ?        Sl   05:32   0:00 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 78a5395192259fb66b18b92db5ef96de4d9ef1d30e0efbb7bc
-            top - 05:35:00 up  1:35,  6 users,  load average: 11.87, 3.75, 1.35
-            Tasks:  90 total,   1 running,  89 sleeping,   0 stopped,   0 zombie
-            %Cpu(s): 32.9 us, 36.5 sy,  0.0 ni, 27.3 id,  0.0 wa,  0.0 hi,  3.0 si,  0.3 st
-            MiB Mem :  16002.5 total,  10411.8 free,   1897.4 used,   3693.4 buff/cache
-            MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13749.8 avail Mem 
-
-
+	sobrinh+    1115  0.0  0.0   6816  3168 pts/5    S<s+ 05:25   0:00 bash -c if [ -f /google/devshell/start-shell.sh ]; then   /google/devshell/start-shell.sh  ''  'centere
+	sobrinh+    1116  0.0  0.0   6816  3192 pts/5    S<+  05:25   0:00 /bin/bash /google/devshell/start-shell.sh  centered-router-362118  786597992 false
+	sobrinh+    1120  0.0  0.0   6744  3264 pts/5    S<+  05:25   0:00 tmux new-session -A -D -n cloudshell -s 786597992
+	sobrinh+    1121  0.0  0.0   9748  6700 pts/6    S<s+ 05:25   0:00 -bash
+	sobrinh+    1443  0.0  0.0  14468  4776 ?        S<   05:25   0:00 sshd: sobrinhosj@pts/7
+	sobrinh+    1457  0.0  0.0   6816  3148 pts/7    S<s+ 05:25   0:00 bash -c if [ -f /google/devshell/start-shell.sh ]; then   /google/devshell/start-shell.sh  ''  'centere
+	sobrinh+    1458  0.0  0.0   6816  3420 pts/7    S<+  05:25   0:00 /bin/bash /google/devshell/start-shell.sh  centered-router-362118  786599360 false
+	sobrinh+    1462  0.0  0.0   6744  3132 pts/7    S<+  05:25   0:00 tmux new-session -A -D -n cloudshell -s 786599360
+	sobrinh+    1463  0.0  0.0   9248  6208 pts/8    S<s  05:25   0:00 -bash
+	root        1826  0.0  0.0  14468  8744 ?        S<s  05:25   0:00 sshd: sobrinhosj [priv]
+	sobrinh+    1828  0.0  0.0  14468  4804 ?        S<   05:25   0:00 sshd: sobrinhosj@pts/9
+	sobrinh+    1829  0.0  0.0   6816  3148 pts/9    S<s+ 05:25   0:00 bash -c if [ -f /google/devshell/start-shell.sh ]; then   /google/devshell/start-shell.sh  ''  'centere
+	sobrinh+    1830  0.0  0.0   6816  3412 pts/9    S<+  05:25   0:00 /bin/bash /google/devshell/start-shell.sh  centered-router-362118  786603970 false
+	sobrinh+    1834  0.0  0.0   6744  3060 pts/9    S<+  05:25   0:00 tmux new-session -A -D -n cloudshell -s 786603970
+	sobrinh+    1835  0.0  0.0   9248  6268 pts/10   S<s+ 05:25   0:00 -bash
+	root        5428  0.0  0.0 1229588 3128 ?        Sl   05:32   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 6379 -container-ip 172.18.0.2 -container-p
+	root        5442  0.0  0.0 1155856 3236 ?        Sl   05:32   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 5432 -container-ip 172.18.0.3 -container-p
+	root        5466  0.0  0.0 720072  9712 ?        Sl   05:32   0:00 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 78a5395192259fb66b18b92db5ef96de4d9ef1d30e0efbb7bc
+	top - 05:35:00 up  1:35,  6 users,  load average: 11.87, 3.75, 1.35
+	Tasks:  90 total,   1 running,  89 sleeping,   0 stopped,   0 zombie
+	%Cpu(s): 32.9 us, 36.5 sy,  0.0 ni, 27.3 id,  0.0 wa,  0.0 hi,  3.0 si,  0.3 st
+	MiB Mem :  16002.5 total,  10411.8 free,   1897.4 used,   3693.4 buff/cache
+	MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13749.8 avail Mem 
+	     
 **Docker cupim de ferro? fominha consome mais recuros alocados para as apis ou recursos do sistema?  127.6 sem crash? consome dos 1,5 CPU e 3 GB de RAM?
-por issos os miseros 54576 inserts maximos?**
+      por issos os miseros 54576 inserts maximos?**
 
                 PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                           
                 5755 root      20   0 3011064  54464   2680 S 127.6   0.3   0:34.23 docker-proxy                                                                                      
