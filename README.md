@@ -21,7 +21,8 @@
         ---- Busca Inválida de Pessoas ------------------------------------------------- [###############]100% waiting: 0 / active: 0 / done: 4190
         ---- Busca Válida de Pessoas --------------------------------------------------- [###############]100% waiting: 0 / active: 0 / done: 9590
         **-- Criação E Talvez Consulta de Pessoas -------------------------------------- [###############]100% waiting: 0 / active: 0 / done: 54634
-                                                          # java em primeiro lugar??
+
+   # java em primeiro lugar!!
    # 54576!!
 
 
@@ -89,7 +90,8 @@
           [##########################################################################]100%
                 **    waiting: 0      / active: 0      / done: 54631 ** 
 
-# java em primeiro lugar!!!
+# java em primeiro lugar!!
+# 54576!!
 
           ================================================================================
           
