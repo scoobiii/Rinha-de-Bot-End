@@ -20,8 +20,10 @@
 
         ---- Busca Inválida de Pessoas ------------------------------------------------- [###############]100% waiting: 0 / active: 0 / done: 4190
         ---- Busca Válida de Pessoas --------------------------------------------------- [###############]100% waiting: 0 / active: 0 / done: 9590
-        **-- Criação E Talvez Consulta de Pessoas -------------------------------------- [###############]100% waiting: 0 / active: 0 / done: 54634**
-                                                     **  java em primeiro lugar??**
+        **-- Criação E Talvez Consulta de Pessoas -------------------------------------- [###############]100% waiting: 0 / active: 0 / done: ** # 54634
+                                                          # java em primeiro lugar??
+                                                                   346576??
+
 
         Criação invalida? Devolver uma criação valida?
         Criação é mérito do devop? ou do testador?
@@ -29,14 +31,14 @@
 
           Simulation RinhaBackendSimulation completed in 265 seconds Parsing log file(s)... Parsing log file(s) done Generating reports...
 
-        ========================== ---- Global Information ----------------------------
-        request count 79089 (OK=24037 KO=55052 ) min response time 0 (OK=0 KO=1169 ) max response time 60008 (OK=13275 KO=60008 ) mean response time 12876 (OK=1367 KO=17901 ) std               deviation 16351 (OK=2805 KO=17250 ) response time 50th percentile 7543 (OK=23 KO=11297 ) response time 75th percentile 15303 (OK=948 KO=23142 )
-         response time 95th percentile 60000 (OK=8090 KO=60000 ) response time 99th percentile 60000 (OK=12356 KO=60001 ) mean requests/sec 298.449 (OK=90.706 KO=207.743)
+                                        ========================== ---- Global Information ----------------------------
+          request count 79089 (OK=24037 KO=55052 ) min response time 0 (OK=0 KO=1169 ) max response time 60008 (OK=13275 KO=60008 ) mean response time 12876 (OK=1367 KO=17901 ) std               deviation 16351 (OK=2805 KO=17250 ) response time 50th percentile 7543 (OK=23 KO=11297 ) response time 75th percentile 15303 (OK=948 KO=23142 )
+           response time 95th percentile 60000 (OK=8090 KO=60000 ) response time 99th percentile 60000 (OK=12356 KO=60001 ) mean requests/sec 298.449 (OK=90.706 KO=207.743)
 
-         ---- Response Time Distribution ------------- t < 800 ms 17743 ( 22%) 800 ms <= t < 1200 ms 622 ( 1%) t >= 1200 ms 5672 ( 7%) failed 55052 ( 70%) -
-           --- Errors ---------------- j.i.IOException: Premature close 48631 (88.34%) Request timeout to localhost/127.0.0.1:9999 after 60000 ms 6421 (11.66%) ==================
+           ---- Response Time Distribution ------------- t < 800 ms 17743 ( 22%) 800 ms <= t < 1200 ms 622 ( 1%) t >= 1200 ms 5672 ( 7%) failed 55052 ( 70%) -
+             --- Errors ---------------- j.i.IOException: Premature close 48631 (88.34%) Request timeout to localhost/127.0.0.1:9999 after 60000 ms 6421 (11.66%) ======
         
-        Reports generated in 0s. file: file:///home/sobrinhosj/rinha-de-backend-2023-q3/stress-test/user-files/results/rinhabackendsimulation-20231227173930077/index.html
+          Reports generated in 0s. file: file:///home/sobrinhosj/rinha-de-backend-2023-q3/stress-test/user-files/results/rinhabackendsimulation-20231227173930077/index.html
         
         Trying 127.0.0.1:9999...
         Connected to localhost (127.0.0.1) port 9999 (#0)
@@ -44,7 +46,7 @@
         
         Mark bundle as not supporting multiuse < HTTP/1.1 504 Gateway Time-out < Server: nginx/1.25.3 < Date: Wed, 27 Dec 2023 17:46:02 GMT < Content-Type: text/html < Content-Length:           167 < Connection: keep-alive < <title>504 Gateway Time-out</title>
 
-2)e ontem o mais divertido, MrPowerGameBR
+2) e ontem,  o mais divertido, MrPowerGameBR em primeiro lugar com **46576 **?
 
           sobrinhosj@cloudshell:~/rinha-de-backend-2023-q3/stress-test (centered-router-362118)$ ./run-test.sh 
           GATLING_HOME is set to /home/sobrinhosj/gatling-charts-highcharts-bundle-3.9.1
@@ -83,8 +85,8 @@
                     waiting: 0      / active: 0      / done: 9590  
           ---- Criação E Talvez Consulta de Pessoas --------------------------------------
           [##########################################################################]100%
-                **    waiting: 0      / active: 0      / done: 54631 ** 
-                             java em primeiro lugar ?????
+                **    waiting: 0      / active: 0      / done: #54631 ** 
+                             # java em primeiro lugar ?????
           ================================================================================
           
           Simulation RinhaBackendSimulation completed in 205 seconds
