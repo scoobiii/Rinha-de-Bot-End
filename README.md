@@ -20,9 +20,9 @@
 
         ---- Busca Inválida de Pessoas ------------------------------------------------- [###############]100% waiting: 0 / active: 0 / done: 4190
         ---- Busca Válida de Pessoas --------------------------------------------------- [###############]100% waiting: 0 / active: 0 / done: 9590
-        **-- Criação E Talvez Consulta de Pessoas -------------------------------------- [###############]100% waiting: 0 / active: 0 / done: ** # 54634
+        **-- Criação E Talvez Consulta de Pessoas -------------------------------------- [###############]100% waiting: 0 / active: 0 / done: 54634
                                                           # java em primeiro lugar??
-                                                                   346576??
+   # 54576!!
 
 
         Criação invalida? Devolver uma criação valida?
@@ -87,8 +87,10 @@
                     waiting: 0      / active: 0      / done: 9590  
           ---- Criação E Talvez Consulta de Pessoas --------------------------------------
           [##########################################################################]100%
-                **    waiting: 0      / active: 0      / done: #54631 ** 
-                             # java em primeiro lugar ?????
+                **    waiting: 0      / active: 0      / done: 54631 ** 
+
+# java em primeiro lugar!!!
+
           ================================================================================
           
           Simulation RinhaBackendSimulation completed in 205 seconds
