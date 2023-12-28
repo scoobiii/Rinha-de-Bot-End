@@ -105,79 +105,76 @@ Use “gcloud config set project [PROJECT_ID]” to change to a different projec
       sobrinhosj@cloudshell:~ (centered-router-362118)$ 
 
 
-  
-  
-  
-  sobrinh+    1115  0.0  0.0   6816  3168 pts/5    S<s+ 05:25   0:00 bash -c if [ -f /google/devshell/start-shell.sh ]; then   /google/devshell/start-shell.sh  ''  'centere
-sobrinh+    1116  0.0  0.0   6816  3192 pts/5    S<+  05:25   0:00 /bin/bash /google/devshell/start-shell.sh  centered-router-362118  786597992 false
-sobrinh+    1120  0.0  0.0   6744  3264 pts/5    S<+  05:25   0:00 tmux new-session -A -D -n cloudshell -s 786597992
-sobrinh+    1121  0.0  0.0   9748  6700 pts/6    S<s+ 05:25   0:00 -bash
-sobrinh+    1443  0.0  0.0  14468  4776 ?        S<   05:25   0:00 sshd: sobrinhosj@pts/7
-sobrinh+    1457  0.0  0.0   6816  3148 pts/7    S<s+ 05:25   0:00 bash -c if [ -f /google/devshell/start-shell.sh ]; then   /google/devshell/start-shell.sh  ''  'centere
-sobrinh+    1458  0.0  0.0   6816  3420 pts/7    S<+  05:25   0:00 /bin/bash /google/devshell/start-shell.sh  centered-router-362118  786599360 false
-sobrinh+    1462  0.0  0.0   6744  3132 pts/7    S<+  05:25   0:00 tmux new-session -A -D -n cloudshell -s 786599360
-sobrinh+    1463  0.0  0.0   9248  6208 pts/8    S<s  05:25   0:00 -bash
-root        1826  0.0  0.0  14468  8744 ?        S<s  05:25   0:00 sshd: sobrinhosj [priv]
-sobrinh+    1828  0.0  0.0  14468  4804 ?        S<   05:25   0:00 sshd: sobrinhosj@pts/9
-sobrinh+    1829  0.0  0.0   6816  3148 pts/9    S<s+ 05:25   0:00 bash -c if [ -f /google/devshell/start-shell.sh ]; then   /google/devshell/start-shell.sh  ''  'centere
-sobrinh+    1830  0.0  0.0   6816  3412 pts/9    S<+  05:25   0:00 /bin/bash /google/devshell/start-shell.sh  centered-router-362118  786603970 false
-sobrinh+    1834  0.0  0.0   6744  3060 pts/9    S<+  05:25   0:00 tmux new-session -A -D -n cloudshell -s 786603970
-sobrinh+    1835  0.0  0.0   9248  6268 pts/10   S<s+ 05:25   0:00 -bash
-root        5428  0.0  0.0 1229588 3128 ?        Sl   05:32   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 6379 -container-ip 172.18.0.2 -container-p
-root        5442  0.0  0.0 1155856 3236 ?        Sl   05:32   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 5432 -container-ip 172.18.0.3 -container-p
-root        5466  0.0  0.0 720072  9712 ?        Sl   05:32   0:00 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 78a5395192259fb66b18b92db5ef96de4d9ef1d30e0efbb7bc
-top - 05:35:00 up  1:35,  6 users,  load average: 11.87, 3.75, 1.35
-Tasks:  90 total,   1 running,  89 sleeping,   0 stopped,   0 zombie
-%Cpu(s): 32.9 us, 36.5 sy,  0.0 ni, 27.3 id,  0.0 wa,  0.0 hi,  3.0 si,  0.3 st
-MiB Mem :  16002.5 total,  10411.8 free,   1897.4 used,   3693.4 buff/cache
-MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13749.8 avail Mem 
+            sobrinh+    1115  0.0  0.0   6816  3168 pts/5    S<s+ 05:25   0:00 bash -c if [ -f /google/devshell/start-shell.sh ]; then   /google/devshell/start-shell.sh  ''  'centere
+            sobrinh+    1116  0.0  0.0   6816  3192 pts/5    S<+  05:25   0:00 /bin/bash /google/devshell/start-shell.sh  centered-router-362118  786597992 false
+            sobrinh+    1120  0.0  0.0   6744  3264 pts/5    S<+  05:25   0:00 tmux new-session -A -D -n cloudshell -s 786597992
+            sobrinh+    1121  0.0  0.0   9748  6700 pts/6    S<s+ 05:25   0:00 -bash
+            sobrinh+    1443  0.0  0.0  14468  4776 ?        S<   05:25   0:00 sshd: sobrinhosj@pts/7
+            sobrinh+    1457  0.0  0.0   6816  3148 pts/7    S<s+ 05:25   0:00 bash -c if [ -f /google/devshell/start-shell.sh ]; then   /google/devshell/start-shell.sh  ''  'centere
+            sobrinh+    1458  0.0  0.0   6816  3420 pts/7    S<+  05:25   0:00 /bin/bash /google/devshell/start-shell.sh  centered-router-362118  786599360 false
+            sobrinh+    1462  0.0  0.0   6744  3132 pts/7    S<+  05:25   0:00 tmux new-session -A -D -n cloudshell -s 786599360
+            sobrinh+    1463  0.0  0.0   9248  6208 pts/8    S<s  05:25   0:00 -bash
+            root        1826  0.0  0.0  14468  8744 ?        S<s  05:25   0:00 sshd: sobrinhosj [priv]
+            sobrinh+    1828  0.0  0.0  14468  4804 ?        S<   05:25   0:00 sshd: sobrinhosj@pts/9
+            sobrinh+    1829  0.0  0.0   6816  3148 pts/9    S<s+ 05:25   0:00 bash -c if [ -f /google/devshell/start-shell.sh ]; then   /google/devshell/start-shell.sh  ''  'centere
+            sobrinh+    1830  0.0  0.0   6816  3412 pts/9    S<+  05:25   0:00 /bin/bash /google/devshell/start-shell.sh  centered-router-362118  786603970 false
+            sobrinh+    1834  0.0  0.0   6744  3060 pts/9    S<+  05:25   0:00 tmux new-session -A -D -n cloudshell -s 786603970
+            sobrinh+    1835  0.0  0.0   9248  6268 pts/10   S<s+ 05:25   0:00 -bash
+            root        5428  0.0  0.0 1229588 3128 ?        Sl   05:32   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 6379 -container-ip 172.18.0.2 -container-p
+            root        5442  0.0  0.0 1155856 3236 ?        Sl   05:32   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 5432 -container-ip 172.18.0.3 -container-p
+            root        5466  0.0  0.0 720072  9712 ?        Sl   05:32   0:00 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 78a5395192259fb66b18b92db5ef96de4d9ef1d30e0efbb7bc
+            top - 05:35:00 up  1:35,  6 users,  load average: 11.87, 3.75, 1.35
+            Tasks:  90 total,   1 running,  89 sleeping,   0 stopped,   0 zombie
+            %Cpu(s): 32.9 us, 36.5 sy,  0.0 ni, 27.3 id,  0.0 wa,  0.0 hi,  3.0 si,  0.3 st
+            MiB Mem :  16002.5 total,  10411.8 free,   1897.4 used,   3693.4 buff/cache
+            MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13749.8 avail Mem 
 
 
 **Docker cupim de ferro? fominha consome mais recuros alocados para as apis ou recursos do sistema?  127.6 sem crash? consome dos 1,5 CPU e 3 GB de RAM?
 por issos os miseros 54576 inserts maximos?**
 
-    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                           
-    5755 root      20   0 3011064  54464   2680 S 127.6   0.3   0:34.23 docker-proxy                                                                                      
-   5985 sobrinh+  10 -10 4783048 366884  26308 S  60.8   2.2   0:53.31 java                                                                                              
-   5639 root      20   0 4233956 356932  23080 S  39.9   2.2   0:59.09 java                                                                                              
-   5679 root      20   0 4233956 359496  22800 S  39.5   2.2   0:59.68 java                                                                                              
-   5858 systemd+  20   0   52004  43664   1928 S  14.0   0.3   0:08.37 nginx                                                                                             
-   5507 999       20   0   74020  26840   8060 S   3.7   0.2   0:02.90 redis-server                                                                                      
-    259 root      20   0 1357072  45096  31300 S   0.3   0.3   0:01.67 containerd                                                                                        
-    400 sobrinh+  10 -10    8440   4292   2400 S   0.3   0.0   0:00.98 tmux                                                                                              
-   5978 999       20   0  366300  19392  16056 S   0.3   0.1   0:00.07 postgres                                                                                          
-   5980 999       20   0  366300  19388  16060 S   0.3   0.1   0:00.03 postgres                                                                                          
-      1 root      20   0    3896   2940   2648 S   0.0   0.0   0:00.04 bash                                                                                              
-      9 root      20   0  220796   2732   1736 S   0.0   0.0   0:01.03 rsyslogd                                                                                          
-     25 root      20   0   31460  23336   8760 S   0.0   0.1   0:00.51 python                                                                                            
-     26 root      20   0    5796   1036    856 S   0.0   0.0   0:00.00 logger                                                                                            
-     61 root      10 -10   13376   4344   3404 S   0.0   0.0   0:00.01 sshd                                                                                              
-    204 root      20   0 2310784 106556  56800 S   0.0   0.7   0:31.28 dockerd                                                                                           
-    274 root      20   0 1232628   5492   4844 S   0.0   0.0   0:00.01 editor-proxy                                                                                      
-    275 root      20   0   11048   4948   4392 S   0.0   0.0   0:00.00 sudo                                                                                              
-    294 root      20   0 1227276   1912   1496 S   0.0   0.0   0:00.00 tmux-agent                                                                                        
-    381 root      20   0    2392    556    496 S   0.0   0.0   0:00.00 sleep                                                                                             
-    382 root      10 -10   14468   8920   7748 S   0.0   0.1   0:00.02 sshd                                                                                              
-    384 root      10 -10   14468   8696   7528 S   0.0   0.1   0:00.03 sshd                                                                                              
-    386 sobrinh+  10 -10   14468   4836   3664 S   0.0   0.0   0:00.00 sshd                                                                                              
-    387 sobrinh+  10 -10   14468   4748   3580 S   0.0   0.0   0:00.01 sshd                                                                                              
-    388 sobrinh+  10 -10    6816   3144   2904 S   0.0   0.0   0:00.00 bash    
+                PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                           
+                5755 root      20   0 3011064  54464   2680 S 127.6   0.3   0:34.23 docker-proxy                                                                                      
+               5985 sobrinh+  10 -10 4783048 366884  26308 S  60.8   2.2   0:53.31 java                                                                                              
+               5639 root      20   0 4233956 356932  23080 S  39.9   2.2   0:59.09 java                                                                                              
+               5679 root      20   0 4233956 359496  22800 S  39.5   2.2   0:59.68 java                                                                                              
+               5858 systemd+  20   0   52004  43664   1928 S  14.0   0.3   0:08.37 nginx                                                                                             
+               5507 999       20   0   74020  26840   8060 S   3.7   0.2   0:02.90 redis-server                                                                                      
+                259 root      20   0 1357072  45096  31300 S   0.3   0.3   0:01.67 containerd                                                                                        
+                400 sobrinh+  10 -10    8440   4292   2400 S   0.3   0.0   0:00.98 tmux                                                                                              
+               5978 999       20   0  366300  19392  16056 S   0.3   0.1   0:00.07 postgres                                                                                          
+               5980 999       20   0  366300  19388  16060 S   0.3   0.1   0:00.03 postgres                                                                                          
+                  1 root      20   0    3896   2940   2648 S   0.0   0.0   0:00.04 bash                                                                                              
+                  9 root      20   0  220796   2732   1736 S   0.0   0.0   0:01.03 rsyslogd                                                                                          
+                 25 root      20   0   31460  23336   8760 S   0.0   0.1   0:00.51 python                                                                                            
+                 26 root      20   0    5796   1036    856 S   0.0   0.0   0:00.00 logger                                                                                            
+                 61 root      10 -10   13376   4344   3404 S   0.0   0.0   0:00.01 sshd                                                                                              
+                204 root      20   0 2310784 106556  56800 S   0.0   0.7   0:31.28 dockerd                                                                                           
+                274 root      20   0 1232628   5492   4844 S   0.0   0.0   0:00.01 editor-proxy                                                                                      
+                275 root      20   0   11048   4948   4392 S   0.0   0.0   0:00.00 sudo                                                                                              
+                294 root      20   0 1227276   1912   1496 S   0.0   0.0   0:00.00 tmux-agent                                                                                        
+                381 root      20   0    2392    556    496 S   0.0   0.0   0:00.00 sleep                                                                                             
+                382 root      10 -10   14468   8920   7748 S   0.0   0.1   0:00.02 sshd                                                                                              
+                384 root      10 -10   14468   8696   7528 S   0.0   0.1   0:00.03 sshd                                                                                              
+                386 sobrinh+  10 -10   14468   4836   3664 S   0.0   0.0   0:00.00 sshd                                                                                              
+                387 sobrinh+  10 -10   14468   4748   3580 S   0.0   0.0   0:00.01 sshd                                                                                              
+                388 sobrinh+  10 -10    6816   3144   2904 S   0.0   0.0   0:00.00 bash    
 
 **docker fominha parte II**
-
-    top - 05:48:40 up  1:48,  6 users,  load average: 1.97, 1.16, 1.28
-Tasks:  90 total,   1 running,  89 sleeping,   0 stopped,   0 zombie
-%Cpu(s): 19.5 us, 36.8 sy,  0.0 ni, 39.1 id,  0.0 wa,  0.0 hi,  4.1 si,  0.4 st
-MiB Mem :  16002.5 total,  10500.9 free,   1815.8 used,   3685.8 buff/cache
-MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13831.3 avail Mem 
-
-    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                           
-  ** 5755 root      20   0 3235608  27332   2680 S 133.1   0.2   1:52.98 docker-proxy     **                                                                                 
-   6257 sobrinh+  10 -10 4784076 350764  26088 S  34.8   2.1   0:50.05 java                                                                                              
-   5639 root      20   0 4233956 409728  23080 S  25.5   2.5   1:57.87 java                                                                                              
-   5679 root      20   0 4233956 468924  22800 S  25.5   2.9   1:55.99 java                                                                                              
-   5858 systemd+  20   0   21252  13044   1928 S  16.2   0.1   0:29.78 nginx                                                                                             
-   5507 999       20   0  105764  57376   8060 S   3.0   0.4   0:09.75 redis-server    
+            
+                top - 05:48:40 up  1:48,  6 users,  load average: 1.97, 1.16, 1.28
+            Tasks:  90 total,   1 running,  89 sleeping,   0 stopped,   0 zombie
+            %Cpu(s): 19.5 us, 36.8 sy,  0.0 ni, 39.1 id,  0.0 wa,  0.0 hi,  4.1 si,  0.4 st
+            MiB Mem :  16002.5 total,  10500.9 free,   1815.8 used,   3685.8 buff/cache
+            MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13831.3 avail Mem 
+            
+                PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                           
+              ** 5755 root      20   0 3235608  27332   2680 S 133.1   0.2   1:52.98 docker-proxy     **                                                                                 
+               6257 sobrinh+  10 -10 4784076 350764  26088 S  34.8   2.1   0:50.05 java                                                                                              
+               5639 root      20   0 4233956 409728  23080 S  25.5   2.5   1:57.87 java                                                                                              
+               5679 root      20   0 4233956 468924  22800 S  25.5   2.9   1:55.99 java                                                                                              
+               5858 systemd+  20   0   21252  13044   1928 S  16.2   0.1   0:29.78 nginx                                                                                             
+               5507 999       20   0  105764  57376   8060 S   3.0   0.4   0:09.75 redis-server    
 
    
 
