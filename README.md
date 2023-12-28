@@ -6,8 +6,9 @@
 
 0) Subimos nossos macotes \o/
 
-1) Analisando os 3 primeiros e ultimos requets do stresssss
-2) 
+1) Analisando os primeiros e ultimos requets do stresssss do **@devertelo **
+
+
               ======================== 2023-12-27 17:40:25 55s elapsed ---- Requests ---------------------------------
 
         **Global (OK=4228 KO=0 ) busca inválida (OK=315 KO=0 ) criação (OK=1759 KO=0 ) busca válida (OK=465 KO=0 ) consulta (OK=1689 KO=0 )**
@@ -42,6 +43,86 @@
         
         Mark bundle as not supporting multiuse < HTTP/1.1 504 Gateway Time-out < Server: nginx/1.25.3 < Date: Wed, 27 Dec 2023 17:46:02 GMT < Content-Type: text/html < Content-Length:           167 < Connection: keep-alive < <title>504 Gateway Time-out</title>
 
+2)e ontem o mais divertido, MrPowerGameBR
+
+          sobrinhosj@cloudshell:~/rinha-de-backend-2023-q3/stress-test (centered-router-362118)$ ./run-test.sh 
+          GATLING_HOME is set to /home/sobrinhosj/gatling-charts-highcharts-bundle-3.9.1
+          21:02:11.523 [WARN ] i.g.c.ZincCompiler$ - -target is deprecated: Use -release instead to compile against the correct platform API.
+          21:02:14.733 [WARN ] i.g.c.ZincCompiler$ - one warning found
+          Gatling 3.10.3 is available! (you're using 3.9.1)
+          Simulation RinhaBackendSimulation started...
+          
+          ================================================================================
+          2023-12-25 21:02:24                                           5s elapsed
+          ---- Requests ------------------------------------------------------------------
+          > Global                                                   (OK=0      KO=33    )
+          > criação                                                  (OK=0      KO=11    )
+          > busca inválida                                           (OK=0      KO=11    )
+          > busca válida                                             (OK=0      KO=11    )
+          ---- Errors --------------------------------------------------------------------
+          > j.n.ConnectException: finishConnect(..) failed: Connection ref     33 (100.0%)
+          used
+          
+          ---- Busca Inválida de Pessoas -------------------------------------------------
+          [                                                                          ]  0%
+                    waiting: 4179   / active: 0      / done: 11    
+          ---- Busca Válida de Pessoas ---------------------------------------------------
+          [                                                                          ]  0%
+                    waiting: 9579   / active: 0      / done: 11    
+          ---- Criação E Talvez Consulta de Pessoas --------------------------------------
+          [-                                                                         ]  0%
+                    waiting: 54620  / active: 1      / done: 10    
+          ================================================================================
+
+          ---- Busca Inválida de Pessoas -------------------------------------------------
+          [##########################################################################]100%
+                    waiting: 0      / active: 0      / done: 4190  
+          ---- Busca Válida de Pessoas ---------------------------------------------------
+          [##########################################################################]100%
+                    waiting: 0      / active: 0      / done: 9590  
+          ---- Criação E Talvez Consulta de Pessoas --------------------------------------
+          [##########################################################################]100%
+                **    waiting: 0      / active: 0      / done: 54631 ** 
+                             java em primeiro lugar ?????
+          ================================================================================
+          
+          Simulation RinhaBackendSimulation completed in 205 seconds
+          Parsing log file(s)...
+          Parsing log file(s) done
+          Generating reports...
+          
+          ================================================================================
+          ---- Global Information --------------------------------------------------------
+          > request count                                      68411 (OK=0      KO=68411 )
+          > min response time                                      0 (OK=-      KO=0     )
+          > max response time                                      7 (OK=-      KO=7     )
+          > mean response time                                     0 (OK=-      KO=0     )
+          > std deviation                                          0 (OK=-      KO=0     )
+          > response time 50th percentile                          0 (OK=-      KO=0     )
+          > response time 75th percentile                          0 (OK=-      KO=0     )
+          > response time 95th percentile                          1 (OK=-      KO=1     )
+          > response time 99th percentile                          1 (OK=-      KO=1     )
+          > mean requests/sec                                333.712 (OK=-      KO=333.712)
+          ---- Response Time Distribution ------------------------------------------------
+          > t < 800 ms                                             0 (  0%)
+          > 800 ms <= t < 1200 ms                                  0 (  0%)
+          > t >= 1200 ms                                           0 (  0%)
+          > failed                                             68411 (100%)
+          ---- Errors --------------------------------------------------------------------
+          > j.n.ConnectException: finishConnect(..) failed: Connection ref  68411 (100.0%)
+          used
+          ================================================================================
+          
+          Reports generated in 0s.
+          Please open the following file: file:///home/sobrinhosj/rinha-de-backend-2023-q3/stress-test/user-files/results/rinhabackendsimulation-20231225210218576/index.html
+          *   Trying 127.0.0.1:9999...
+          * connect to 127.0.0.1 port 9999 failed: Connection refused
+          *   Trying ::1:9999...
+          * Immediate connect fail for ::1: Cannot assign requested address
+          * Failed to connect to localhost port 9999: Connection refused
+          * Closing connection 0
+          curl: (7) Failed to connect to localhost port 9999: Connection refused
+          sobrinhosj@cloudshell:~/rinha-de-backend-2023-q3/stress-test (centered-router-362118)$ 
         
 
 # 27 dezembro de 2027
