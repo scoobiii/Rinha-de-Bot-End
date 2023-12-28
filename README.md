@@ -2,6 +2,48 @@
 
 ![logo da rinha de bot end](/3D_Animation_Style_Close_your_eyes_and_envision_a_world_where_1.jpg)
 
+# 28 dezembro de 2027
+
+0) Subimos nossos macotes \o/
+
+1) Analisando os 3 primeiros e ultimos requets do stresssss
+2) 
+              ======================== 2023-12-27 17:40:25 55s elapsed ---- Requests ---------------------------------
+
+        **Global (OK=4228 KO=0 ) busca inválida (OK=315 KO=0 ) criação (OK=1759 KO=0 ) busca válida (OK=465 KO=0 ) consulta (OK=1689 KO=0 )**
+
+        ---- Busca Inválida de Pessoas ------------------------------------------------- [####- ] 6% waiting: 3930 / active: 1 / done: 259
+        ---- Busca Válida de Pessoas --------------------------------------------------- [##- ] 3% waiting: 9226 / active: 1 / done: 363
+        **-- Criação E Talvez Consulta de Pessoas -------------------------------------- [#- ] 2% waiting: 53358 / active: 4 / done: 1272**
+
+
+        ---- Busca Inválida de Pessoas ------------------------------------------------- [###############]100% waiting: 0 / active: 0 / done: 4190
+        ---- Busca Válida de Pessoas --------------------------------------------------- [###############]100% waiting: 0 / active: 0 / done: 9590
+        **-- Criação E Talvez Consulta de Pessoas -------------------------------------- [###############]100% waiting: 0 / active: 0 / done: 54634**
+
+        Criação invalida? Devolver uma criação valida?
+        Criação é mérito do devop? ou do testador?
+        O testador pede a quantidade cabendo do desevolvedor criar a pessoa, ja que não se cria com campos null?
+
+          Simulation RinhaBackendSimulation completed in 265 seconds Parsing log file(s)... Parsing log file(s) done Generating reports...
+
+        ========================== ---- Global Information ----------------------------
+        request count 79089 (OK=24037 KO=55052 ) min response time 0 (OK=0 KO=1169 ) max response time 60008 (OK=13275 KO=60008 ) mean response time 12876 (OK=1367 KO=17901 ) std               deviation 16351 (OK=2805 KO=17250 ) response time 50th percentile 7543 (OK=23 KO=11297 ) response time 75th percentile 15303 (OK=948 KO=23142 )
+         response time 95th percentile 60000 (OK=8090 KO=60000 ) response time 99th percentile 60000 (OK=12356 KO=60001 ) mean requests/sec 298.449 (OK=90.706 KO=207.743)
+
+   ---- Response Time Distribution ------------- t < 800 ms 17743 ( 22%) 800 ms <= t < 1200 ms 622 ( 1%) t >= 1200 ms 5672 ( 7%) failed 55052 ( 70%) -
+           --- Errors ---------------- j.i.IOException: Premature close 48631 (88.34%) Request timeout to localhost/127.0.0.1:9999 after 60000 ms 6421 (11.66%) ==================
+        
+        Reports generated in 0s. file: file:///home/sobrinhosj/rinha-de-backend-2023-q3/stress-test/user-files/results/rinhabackendsimulation-20231227173930077/index.html
+        
+        Trying 127.0.0.1:9999...
+        Connected to localhost (127.0.0.1) port 9999 (#0)
+        GET /contagem-pessoas HTTP/1.1 Host: localhost:9999 User-Agent: curl/7.74.0 Accept: /
+        
+        Mark bundle as not supporting multiuse < HTTP/1.1 504 Gateway Time-out < Server: nginx/1.25.3 < Date: Wed, 27 Dec 2023 17:46:02 GMT < Content-Type: text/html < Content-Length:           167 < Connection: keep-alive < <title>504 Gateway Time-out</title>
+
+        
+
 # 27 dezembro de 2027
 
 Salve queridões, queridonas, gado de equerda, centro e direita, preto, branco e amarelo....
