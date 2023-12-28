@@ -1,3 +1,7 @@
+#Rinha de Bot End
+
+![logo da rinha de bot end](/3D_Animation_Style_Close_your_eyes_and_envision_a_world_where_1.jpg)
+
 # 27 dezembro de 2027
 
 Salve queridões, queridonas, gado de equerda, centro e direita, preto, branco e amarelo....
