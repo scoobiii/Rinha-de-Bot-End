@@ -21,6 +21,7 @@
         ---- Busca Inválida de Pessoas ------------------------------------------------- [###############]100% waiting: 0 / active: 0 / done: 4190
         ---- Busca Válida de Pessoas --------------------------------------------------- [###############]100% waiting: 0 / active: 0 / done: 9590
         **-- Criação E Talvez Consulta de Pessoas -------------------------------------- [###############]100% waiting: 0 / active: 0 / done: 54634**
+                                                     **  java em primeiro lugar??**
 
         Criação invalida? Devolver uma criação valida?
         Criação é mérito do devop? ou do testador?
