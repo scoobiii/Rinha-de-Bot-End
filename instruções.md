@@ -1,4 +1,4 @@
-# Instruções e Regras para Rinha de Backend - Edição 2023 Q3
+# Refererência Instruções e Regras para Rinha de Backend - Edição 2023 Q3
 
 ![logo da rinha de backend](/misc/logo.jpg)
 
