@@ -1,6 +1,6 @@
  #  Rinha de Bot End   
 
-![logo da rinha de bot end](/3D_Animation_Style_Close_your_eyes_and_envision_a_world_where_1.jpg)
+![logo da rinha de bot end](/Imagens/3D_Animation_Style_Close_your_eyes_and_envision_a_world_where_1.jpg)
 
 
 # 28 dezembro de 2023
