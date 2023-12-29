@@ -1,4 +1,4 @@
-# zeh sobrinho,28 dezembro 23, booora entrar na sp 42...c & bash pré requisito porra \o/
+ # zeh sobrinho,28 dezembro 23, booora entrar na sp 42...c & bash pré requisito porra \o/
 #!/bin/bash
 
 # Comando para obter informações da CPU
