@@ -48,7 +48,7 @@ No ar Rinha de Backend que é um torneio em que um bot (com ou sem ajuda de huma
       1. duas API´s (no minimo) com endpoints para 
          1. criar
          2. consultar
-         3. buscar 'pessoas' (uma espécie de CRUD sem UPDATE e DELETE). 
+         3. buscar 'bots' (uma espécie de CRUD sem UPDATE e DELETE). 
    11. No torneio, os participantes ainda têm que lidar com restrições de CPU e memória – cada time deve entregar 
       1. API´s no formato de docker-compose
       2. usar apenas 1,5 unidades de CPU
