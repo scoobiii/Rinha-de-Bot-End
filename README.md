@@ -7,6 +7,59 @@
 bom dia queridões e queridonas \o/
 
 
+    ├── README.md
+    ├── agi-bot-team
+    │   ├── BotESG
+    │   │   └── *README.md*
+
+    │   ├── DeepBotTeam
+    │   ├── Imagens
+    │   │   └── 3D_Animation_Style_Close_your_eyes_and_envision_a_world_where_1.jpg
+    │   ├── Instruções
+    │   │   ├── README.md
+    │   │   ├── rinha de agi bot end instruções 1.0.0.docx
+    │   │   ├── rinha de agi bot end instruções 1.0.0.epub
+    │   │   ├── rinha de agi bot end instruções 1.0.0.pdf
+    │   │   ├── rinha de agi bot end instruções 1.0.0.txt
+    │   │   └── rinha de agi bot end instruções 1.0.0.zip
+    │   ├── JavaExpertGPT
+    │   │   ├── JavaExpert
+    │   │   ├── LMAXmax.java
+    │   │   ├── NeptunePrimo10Cores.py
+    │   │   └── README.md
+    │   ├── JavamanBot
+    │   │   └── historico conversa JavamanBot.txt
+    │   ├── MISC
+    │   │   ├── FabioAkita
+    │   │   │   ├── rinha de back end por akita fabio insigth banco.txt
+    │   │   │   └── rinha de back end por akita fabio.txt
+    │   │   ├── README.pdf
+    │   │   ├── Rinha de Backend (sem Cache - somente acesso ao postgres).txt
+    │   │   ├── gitThermal
+    │   │   ├── instruçõesReferenciaRinhadeBackEndEdição2023Q3.md
+    │   │   ├── oraclefusionapplicationslicensingr9-2298548.pdf
+    │   │   ├── rinha de back end java.txt
+    │   │   ├── rinha de back end.txt
+    │   │   └── roteador.txt
+    │   ├── MrPowerBR
+    │   │   ├── GatlingStressTest
+    │   │   ├── PowerGamerTestStessVirgem.txt
+    │   │   ├── PowerGamerTestStessVirgem1.txt
+    │   │   ├── RinhaBackendSimulation
+    │   │   ├── Videos\
+    │   │   ├── readme
+    │   │   └── tela GCP MrPowerGameBR tela inicial testestress 1.png
+    │   └── agi-bot-api1.0.0
+    │       └── README.md
+    └── rinhadeBackEnd
+        ├── Bruno Borges
+        │   └── README.md
+        ├── Hugo Marques
+        │   └── GetlingGCP28dezembro23.md
+        └── João Vertelo
+            └── stressTestGCP27dezembro.md
+
+
 
 
 # 28 dezembro de 2023
