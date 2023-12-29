@@ -5,6 +5,8 @@ economiza no codigo e gasta na meta
 
 # monitorar todas instancias dentro de todos docker
 
+parametros
+
 .
 ├── Bandolin
 │   ├── README.md

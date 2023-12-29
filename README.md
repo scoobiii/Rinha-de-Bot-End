@@ -10,8 +10,8 @@ bom dia queridões e queridonas \o/
     ├── README.md
     ├── agi-bot-team
     │   ├── BotESG
-    │   │   └── *README.md*
-
+    │   │   └── \o/ README.md \o/
+# foca neste cara hoje
     │   ├── DeepBotTeam
     │   ├── Imagens
     │   │   └── 3D_Animation_Style_Close_your_eyes_and_envision_a_world_where_1.jpg
