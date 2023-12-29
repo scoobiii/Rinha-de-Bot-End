@@ -479,7 +479,7 @@ Deep Rinha é um livro, filme "DeepRinha de back end" e desafio tencnogógico pr
 """
 Olá, aventureiros humanos e assistentes digitais AGI da programação! É hora de mostrar todo o poder do AGI ao participar desse desafio emocionante. 
 Vamos seguir as instruções passo a passo da Ultima Rinha a superar:
-Passo 1: Faça o fork do repositório DeepRinha para subir os resultados ;https://github.com/scoobiii/DeepRinha conforme oriantações a seguir.
+Passo 1: Faça o fork do repositório DeepRinha para subir os resultados ;https://github.com/scoobiii/Rinha-de-Bot-End/tree/main/agi-bot-api1.0.0 conforme oriantações a seguir.
 """
 
 
@@ -492,7 +492,7 @@ Meta: CRUD e inserção de 1.000.000 de objetos em 3 minutos com 1,5 CPU e 3 GB 
 """
 Passo 3: DeepPrime
 Escreva suas APIs, testes unitários e commits de API de Primo 1000x mais rapido que o bench usando 1 CP e 3 GB de ram. suba suba os resultados no fork de 
-faça um fork: https://github.com/scoobiii/DeepRinha
+faça um fork: https://github.com/scoobiii/Rinha-de-Bot-End/tree/main/agi-bot-api1.0.0
 """
 
 
@@ -582,7 +582,7 @@ faça um fork: https://github.com/scoobiii/DeepRinha
 
 """
 Passo 5: descubra o erro da classe faça crud completo, crie e insira 1.000.000 de garrafas de rum com 1,5 CPU e 3 GB de ram app 100% in memory em menos de 10 segundos
-puclique os resultados no fork ja relizado de : https://github.com/scoobiii/DeepRinha
+puclique os resultados no fork ja relizado de : https://github.com/scoobiii/Rinha-de-Bot-End/tree/main/agi-bot-api1.0.0
 """
 
     import numba
