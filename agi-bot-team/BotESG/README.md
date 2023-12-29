@@ -5,7 +5,156 @@ economiza no codigo e gasta na meta
 
 # monitorar todas instancias dentro de todos docker
 
-parametros
+parametros GCP
+
+sobrinhosj@cloudshell:~ (centered-router-362118)$ #!/bin/bash
+
+# Comando para obter informações da CPU
+cpu_info=$(lscpu | grep "Model name" | awk -F ':' '{print $2}' | sed 's/^ *//')
+cpu_cores=$(lscpu | grep "Core(s) per socket" | awk '{print $4}' | sed 's/^ *//')
+cpu_freq=$(lscpu | grep "CPU MHz" | awk '{print $3}' | sed 's/^ *//')
+
+# Comando para obter informações de memória
+mem_info=$(free -h | grep "Mem" | awk '{print "Total: "$2", Used: "$3", Free: "$4}' | sed 's/^ *//')
+
+# Comando para obter informações de armazenamento
+storage_info=$(df -h | grep "/dev/sda1" | awk '{print "Total: "$2", Used: "$3", Free: "$4}' | sed 's/^ *//')
+
+# Comando para obter informações da GPU (supondo NVIDIA)
+gpu_info=$(nvidia-smi --query-gpu=name,temperature.gpu,power.draw --format=csv,noheader | sed 's/^ *//')
+
+# Comando para obter informações da TPU (exemplo, pode não funcionar em todos os sistemas)
+tpu_info=$(echo "TPU Info: N/A")  # Adapte conforme necessário
+
+# Informações de temperatura da CPU (pode variar dependendo do sistema)
+cpu_temp=$(sensors | grep "Core 0" | awk '{print $3}')
+
+# Informações de uso da rede
+network_info=$(ifconfig | grep "RX packets" | awk '{print "RX: "$2", TX: "$6}')
+
+# Exibindo as informações formatadas em uma tabela
+echo "-------------------------------------------------------------------------"
+echo "|                      Sistema Informações                              |"
+echo "-------------------------------------------------------------------------"
+echo "| CPU:      | $cpu_info"
+echo "| Núcleos por CPU: | $cpu_cores"
+echo "| Frequência da CPU: | $cpu_freq MHz"
+echo "| Temperatura da CPU: | $cpu_temp"
+echo "| Memória:    | $mem_info"
+echo "| Armazenamento: | $storage_info"
+echo "-------------------------------------------------------------------------"
+-bash: nvidia-smi: command not found
+-bash: sensors: command not found
+-------------------------------------------------------------------------
+|                      Sistema Informações                              |
+-------------------------------------------------------------------------
+| CPU:      | Intel(R) Xeon(R) CPU @ 2.20GHz
+| Núcleos por CPU: | 2
+| Frequência da CPU: | 2199.998 MHz
+| Temperatura da CPU: |  ??? \o/ CADE \o/  ???
+| Memória:    | Total: 15Gi, Used: 364Mi, Free: 13Gi
+| Armazenamento: | Total: 114G, Used: 103G, Free: 11G
+| GPU:      | 
+| TPU:      | TPU Info: N/A
+| Uso de Rede: | RX: packets, TX: (0.0
+RX: packets, TX: (771.1
+RX: packets, TX: (149.5
+-------------------------------------------------------------------------
+sobrinhosj@cloudshell:~ (centered-router-362118)$ 
+
+parametros githubdev
+
+scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ #!/bin/bash
+PU
+cpu_info=$(lscpu | grep "Model name" | awk -F ':' '{print $2}' | sed 's/^ *//')
+cpu_cores=$(lscpu | grep "Core(s) per socket" | awk '{print $4}' | @scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ 
+sed 's/^ *//')
+cpu_freq=$(lscpu | grep "CPU MHz" | awk '{print $3}' | sed 's/^ *//')
+
+# Comando para obter informações de memória
+mem_info=$(free -h | grep "Mem" | awk '{print "Total: "$2", Used: "$3"@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ # Comando para obter informações da CPU
+, Free: "$4}' | sed 's/^ *//')
+
+# Comando para obter informações de armazenamento
+storage_info=$(df -h | grep "/dev/sda1" | awk '{print "Total: "$2", @scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ cpu_info=$(lscpu | grep "Model name" | awk -F ':' '{print $2}' | sed 's/^ *//')
+o para obter informações da GPU (supondo NVIDIA)
+gpu_info=$(nvidia-smi --query-gpu=name,temperature.gpu,power.draw --format=csv,noheader | sed 's/^ *//')
+
+# Comando para obter informações da TPU (exemplo, pode não funcionar em todos os sistemas)
+tpu_@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ cpu_cores=$(lscpu | grep "Core(s) per socket" | awk '{print $4}' | sed 's/^ *//')
+info=$(echo "TPU Info: N/A")  # Adapte conforme necessário
+
+# Informações de temperatura da CPU (pode variar dependendo do sistema)
+cpu_temp=$(sensors | grep "Core 0" | awk '{print $3}')
+
+# Informações de uso da rede
+network_info=$(ifconfig | grep "R@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ cpu_freq=$(lscpu | grep "CPU MHz" | awk '{print $3}' | sed 's/^ *//')
+X packets" | awk '{print "RX: "$2", TX: "$6}')
+
+# Exibindo as informações formatadas em uma tabela
+echo "-------------------------------------------------------------------------"
+echo "|                      Sistema Informações                      @scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ 
+        |"
+echo "-------------------------------------------------------------------------"
+echo "| CPU:      | $cpu_info"
+echo "| Núcleos por CPU: | @scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ # Comando para obter informações de memória
+ MHz"
+echo "| Temperatura da CPU: | $cpu_temp"
+echo "| Memória:    | $mem_info"
+echo "| Armazenamento: | $storage_info"
+echo "| GPU:      | $gpu_info"@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ mem_info=$(free -h | grep "Mem" | awk '{print "Total: "$2", Used: "$3", Free: "$4}' | sed 's/^ *//')
+
+echo "| TPU:      | $tpu_info"
+echo "| Uso de Rede: | $network_info"
+echo "-------------------------------------------------------------------------"
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ 
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ # Comando para obter informações de armazenamento
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ storage_info=$(df -h | grep "/dev/sda1" | awk '{print "Total: "$2", Used: "$3", Free: "$4}' | sed 's/^ *//')
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ 
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ # Comando para obter informações da GPU (supondo NVIDIA)
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ gpu_info=$(nvidia-smi --query-gpu=name,temperature.gpu,power.draw --format=csv,noheader | sed 's/^ *//')
+bash: nvidia-smi: command not found
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ 
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ # Comando para obter informações da TPU (exemplo, pode não funcionar em todos os sistemas)
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ tpu_info=$(echo "TPU Info: N/A")  # Adapte conforme necessário
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ 
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ # Informações de temperatura da CPU (pode variar dependendo do sistema)
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ cpu_temp=$(sensors | grep "Core 0" | awk '{print $3}')
+bash: sensors: command not found
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ 
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ # Informações de uso da rede
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ network_info=$(ifconfig | grep "RX packets" | awk '{print "RX: "$2", TX: "$6}')
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ 
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ # Exibindo as informações formatadas em uma tabela
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ echo "-------------------------------------------------------------------------"
+-------------------------------------------------------------------------
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ echo "|                      Sistema Informações                              |"
+|                      Sistema Informações                              |
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ echo "-------------------------------------------------------------------------"
+-------------------------------------------------------------------------
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ echo "| CPU:      | $cpu_info"
+| CPU:      | AMD EPYC 7763 64-Core Processor
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ echo "| Núcleos por CPU: | $cpu_cores"
+| Núcleos por CPU: | 2
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ echo "| Frequência da CPU: | $cpu_freq MHz"
+| Frequência da CPU: | 3243.464 MHz
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ echo "| Temperatura da CPU: | $cpu_temp"
+| Temperatura da CPU: | ???  \o/ cadê \o/  ????
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ echo "| Memória:    | $mem_info"
+| Memória:    | Total: 15Gi, Used: 1.7Gi, Free: 1.2Gi??
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ echo "| Armazenamento: | $storage_info"
+| Armazenamento: | Total: 118G, Used: 828K, Free: 112G
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ echo "| GPU:      | $gpu_info"
+| GPU:      | 
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ echo "| TPU:      | $tpu_info"
+| TPU:      | TPU Info: N/A
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ echo "| Uso de Rede: | $network_info"
+| Uso de Rede: | RX: packets, TX: (0.0
+RX: packets, TX: (3.0
+RX: packets, TX: (52.8
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ echo "-------------------------------------------------------------------------"
+-------------------------------------------------------------------------
+@scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ 
 
 .
 ├── Bandolin
