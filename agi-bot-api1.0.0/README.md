@@ -8,3 +8,5 @@ economiza no codigo e gasta na meta
 
 
 # monitorar os dockers
+
+
