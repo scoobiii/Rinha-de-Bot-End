@@ -12,6 +12,28 @@ economiza no codigo e gasta na meta
             0 directories, 1 file
             root ➜ .../rinhadeBackEnd/rinha-de-backend-2023-q3/stress-test/esg $ 
 
+gitdev
+
+    root ➜ /workspaces/Rinha-de-Bot-End/agi-bot-team/BotESG $ ./agibotenergy.sh 
+    ./agibotenergy.sh: line 16: nvidia-smi: command not found
+    ./agibotenergy.sh: line 22: sensors: command not found
+    -------------------------------------------------------------------------
+    |                      Sistema Informações                              |
+    -------------------------------------------------------------------------
+    | CPU:      | AMD EPYC 7763 64-Core Processor
+    | Núcleos por CPU: | 2
+    | Frequência da CPU: | 3243.286 MHz
+    | Temperatura da CPU: | 
+    | Memória:    | Total: 15Gi, Used: 1.8Gi, Free: 1.0Gi
+    | Armazenamento: | Total: 118G, Used: 1.2M, Free: 112G
+    | GPU:      | 
+    | TPU:      | TPU Info: N/A
+    | Uso de Rede: | RX: packets, TX: (0.0
+    RX: packets, TX: (3.0
+    RX: packets, TX: (75.3
+    -------------------------------------------------------------------------
+    root ➜ /workspaces/Rinha-de-Bot-End/agi-bot-team/BotESG $ 
+
 
     .
     ├── Bandolin
