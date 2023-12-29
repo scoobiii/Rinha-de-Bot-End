@@ -34,6 +34,31 @@ gitdev
     -------------------------------------------------------------------------
     root ➜ /workspaces/Rinha-de-Bot-End/agi-bot-team/BotESG $ 
 
+gcp
+
+
+            sobrinhosj@cloudshell:~/rinha-de-backend-2023-q3/stress-test/esg (centered-router-362118)$ ./agibotenergy.sh 
+            ./agibotenergy.sh: line 16: nvidia-smi: command not found
+            ./agibotenergy.sh: line 22: sensors: command not found
+            -------------------------------------------------------------------------
+            |                      Sistema Informações                              |
+            -------------------------------------------------------------------------
+            | CPU:      | Intel(R) Xeon(R) CPU @ 2.20GHz
+            | Núcleos por CPU: | 2
+            | Frequência da CPU: | 2199.998 MHz
+            | Temperatura da CPU: | \o/ cade??? \o/
+            | Memória:    | Total: 15Gi, Used: 370Mi, Free: 13Gi
+            | Armazenamento: | Total: 114G, Used: 103G, Free: 11G
+            | GPU:      | 
+            | TPU:      | TPU Info: N/A
+            | Uso de Rede: | RX: packets, TX: (0.0
+            RX: packets, TX: (4.1
+            RX: packets, TX: (661.8
+            -------------------------------------------------------------------------
+            sobrinhosj@cloudshell:~/rinha-de-backend-2023-q3/stress-test/esg (centered-router-362118)$ 
+
+
+esg 
 
     .
     ├── Bandolin
