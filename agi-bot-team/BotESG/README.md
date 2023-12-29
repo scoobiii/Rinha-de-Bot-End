@@ -12,7 +12,7 @@ economiza no codigo e gasta na meta
             0 directories, 1 file
             root ➜ .../rinhadeBackEnd/rinha-de-backend-2023-q3/stress-test/esg $ 
 
-gitdev
+githubdev
 
     root ➜ /workspaces/Rinha-de-Bot-End/agi-bot-team/BotESG $ ./agibotenergy.sh 
     ./agibotenergy.sh: line 16: nvidia-smi: command not found
