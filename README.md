@@ -11,7 +11,17 @@ bom dia queridões e queridonas \o/
     ├── agi-bot-team
     │   ├── BotESG
     │   │   └── \o/ README.md \o/
+
 # foca neste cara hoje
+
+    root ➜ .../rinhadeBackEnd/rinha-de-backend-2023-q3/stress-test/esg $ tree
+    .
+    └── agibotenegy.sh
+
+    0 directories, 1 file
+    root ➜ .../rinhadeBackEnd/rinha-de-backend-2023-q3/stress-test/esg $ 
+
+
     │   ├── DeepBotTeam
     │   ├── Imagens
     │   │   └── 3D_Animation_Style_Close_your_eyes_and_envision_a_world_where_1.jpg
