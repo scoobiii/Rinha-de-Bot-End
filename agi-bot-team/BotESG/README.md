@@ -55,7 +55,7 @@ gcp
             RX: packets, TX: (4.1
             RX: packets, TX: (661.8
             -------------------------------------------------------------------------
-            sobrinhosj@cloudshell:~/rinha-de-backend-2023-q3/stress-test/esg (centered-router-362118)$ 
+            sobrinhosj@cloudshell:~/rinha-de-backend-2023-q3/stress-test/esg (centered-router-362118)$  
 
 
 esg 
