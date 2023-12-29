@@ -2,7 +2,66 @@
 
 ![logo da rinha de bot end](/3D_Animation_Style_Close_your_eyes_and_envision_a_world_where_1.jpg)
 
-# 28 dezembro de 2027
+
+# 28 dezembro de 2023
+
+...pausa....entrar na 42 SP?
+
+pre-rqe
+
+
+melhorando a estrutura
+
+            @scoobiii ➜ /workspaces/Rinha-de-Bot-End (main) $ tree
+            .
+            ├── 3D_Animation_Style_Close_your_eyes_and_envision_a_world_where_1.jpg
+            ├── Bruno Borges
+            │   └── README.md
+            ├── DeepBotTeam
+            ├── Hugo Marques
+            │   └── GetlingGCP28dezembro23.md
+            ├── Instruções
+            │   ├── README.md
+            │   ├── rinha de agi bot end instruções 1.0.0.docx
+            │   ├── rinha de agi bot end instruções 1.0.0.epub
+            │   ├── rinha de agi bot end instruções 1.0.0.pdf
+            │   ├── rinha de agi bot end instruções 1.0.0.txt
+            │   └── rinha de agi bot end instruções 1.0.0.zip
+            ├── JavaExpertGPT
+            │   ├── JavaExpert
+            │   ├── LMAXmax.java
+            │   ├── NeptunePrimo10Cores.py
+            │   └── README.md
+            ├── JavamanBot
+            │   └── historico conversa JavamanBot.txt
+            ├── João Vertelo
+            │   └── stressTestGCP27dezembro.md
+            ├── MISC
+            │   ├── FabioAkita
+            │   │   ├── rinha de back end por akita fabio insigth banco.txt
+            │   │   └── rinha de back end por akita fabio.txt
+            │   ├── README.pdf
+            │   ├── Rinha de Backend (sem Cache - somente acesso ao postgres).txt
+            │   ├── instruçõesReferenciaRinhadeBackEndEdição2023Q3.md
+            │   ├── oraclefusionapplicationslicensingr9-2298548.pdf
+            │   ├── rinha de back end java.txt
+            │   ├── rinha de back end.txt
+            │   └── roteador.txt
+            ├── MrPowerBR
+            │   ├── GatlingStressTest
+            │   ├── PowerGamerTestStessVirgem.txt
+            │   ├── PowerGamerTestStessVirgem1.txt
+            │   ├── RinhaBackendSimulation
+            │   ├── Videos\
+            │   ├── readme
+            │   └── tela GCP MrPowerGameBR tela inicial testestress 1.png
+            ├── README.md
+            ├── agi-bot-api1.0.0
+            │   └── README.md
+            └── gitThermal
+                └── README.md
+
+            11 directories, 35 files
 
 0) Subimos nossos macotes \o/
 
