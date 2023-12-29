@@ -1,1 +1,10 @@
-# agi-bot  versão 1.0.0
+# pausa
+esg devop gflops/watts para brekar overhead de codigo desnecessário
+quer inserir mais de 50.000 para 1.000.000 de objetos/
+economiza no codigo e gasta na meta
+
+# monitorar todas instancias dentro de todos docker
+
+
+
+# monitorar os dockers
