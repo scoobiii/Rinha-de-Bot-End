@@ -533,7 +533,7 @@ def post(self):
 
     # Validar nascimento
     if not isinstance(dados['nascimento'], str):
-        raise BadRequestError('Nascimento deve ser uma string.')
+        raise BadRequestError('Nascimento deve ser uma string.') 
 
 
     # Validar stack

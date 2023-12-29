@@ -10,7 +10,7 @@ economiza no codigo e gasta na meta
             └── agibotenegy.sh
 
             0 directories, 1 file
-            root ➜ .../rinhadeBackEnd/rinha-de-backend-2023-q3/stress-test/esg $ 
+            root ➜ .../rinhadeBackEnd/rinha-de-backend-2023-q3/stress-test/esg $  
 
 githubdev
 
