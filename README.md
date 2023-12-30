@@ -1,7 +1,7 @@
 
  #  Rinha de Bot End   
 
-![logo da rinha de bot end](/agi-bot-team/Imagens/3D_Animation_Style_Close_your_eyes_and_envision_a_world_where_1.jpg)
+![logo da rinha de bot end](/agi-bot-end/Imagens/3D_Animation_Style_Close_your_eyes_and_envision_a_world_where_1.jpg)
 
 # 29 dezembro 2023 agi-bot-tem
 
