@@ -314,7 +314,9 @@ CPU e 3 GB porque ai tir do stressador o peso de esta limitando a tecnologia e o
                      
                      #------------------------------------------#
 
-              stresssa até umas horas classe padrão...da rinha de back end
+              
+stresssa até umas horas classe padrão...da rinha de back end
+
            **   https://github.com/zanfranceschi/rinha-de-backend-2023-q3/tree/main/stress-test/user-files/simulations/rinhabackend**
               
               [import scala.concurrent.duration._
