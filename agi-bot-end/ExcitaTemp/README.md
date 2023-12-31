@@ -93,8 +93,8 @@ Desenvolver uma API como o ExcitaTemp para monitorar em tempo real a zona térmi
 
 **11. Desempenho & teste de carga:
     - Metricas de Gflops/Watts
+        
         https://poe.com/s/5gTwwY8g4COiw1Nbx9AA
-
 
         Imports e classe de dispositivo
         Foram incluídas bibliotecas para trabalhar com métricas de recursos e datas, além da classe Device para armazenar informações do equipamento testado:
