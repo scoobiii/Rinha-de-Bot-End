@@ -91,7 +91,7 @@ Desenvolver uma API como o ExcitaTemp para monitorar em tempo real a zona térmi
 **10. Segurança e Privacidade:**
    - Certifique-se de lidar com dados sensíveis, como temperatura do dispositivo, de maneira segura e em conformidade com as políticas de privacidade.
 
-**11. Desempenho & teste de carga:
+**11. Desempenho & teste de carga:**
    - Metricas de Gflops/Watts
         
         https://poe.com/s/5gTwwY8g4COiw1Nbx9AA
