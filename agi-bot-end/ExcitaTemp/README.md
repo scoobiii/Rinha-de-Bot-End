@@ -91,3 +91,31 @@ Desenvolver uma API como o ExcitaTemp para monitorar em tempo real a zona térmi
 **10. Segurança e Privacidade:**
    - Certifique-se de lidar com dados sensíveis, como temperatura do dispositivo, de maneira segura e em conformidade com as políticas de privacidade.
 
+**11. Desempenho & teste de carga:
+    - Metricas de Gflops/Watts
+
+
+    Imports e classe de dispositivo
+    Foram incluídas bibliotecas para trabalhar com métricas de recursos e datas, além da classe Device para armazenar informações do equipamento testado:
+    
+    Se é VM ou físico
+    Fabricante, modelo, especificações
+    Métricas coletadas a cada X segundos
+    Classe Monitorador de Recursos
+    A classe ResourceMonitor é responsável por alocar e monitorar recursos durante o teste:
+    
+    Inicializa o cliente Prometheus para coleta de métricas
+    Aloca recursos do Docker para cada componente testado
+    Coleta métricas de uso a cada 5 segundos
+    Simulação
+    Na classe LoadTest:
+    
+    Inicia populando dados do dispositivo
+    Cria objeto ResourceMonitor, passando o dispositivo
+    Executa os cenários de teste
+    Coleta métricas antes e depois da simulação
+    Exporta os dados coletados
+    Dessa forma o teste passa a conhecer melhor o ambiente real onde roda, monitorando especificações do hardware e consumo de recursos. Isso permite validar de forma mais precisa o desempenho e dimensionar corretamente os recursos necessários.
+
+https://poe.com/s/5gTwwY8g4COiw1Nbx9AA
+
