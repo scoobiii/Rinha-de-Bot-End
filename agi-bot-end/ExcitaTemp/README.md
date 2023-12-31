@@ -4,27 +4,27 @@ Descrição:
 O ExcitaTemp é um projeto empolgante que visa mapear e visualizar os pontos de temperatura da zona térmica de dispositivos, utilizando treemaps para uma representação gráfica intuitiva. Além disso, o projeto se estende à análise de dados térmicos provenientes de contêineres Docker, proporcionando uma visão abrangente das variações de temperatura.
 
 Estrutura do Projeto:
-markdown
-Copy code
-📁 ExcitaTemp
-│
-├── 📁 Leitura_Temperatura
-│   ├── 📄 App_Android
-│   └── 📄 Sensores_Script
-│
-├── 📁 Coleta_Dados
-│   ├── 📄 Zona_Termica_Capture
-│   └── 📄 Docker_Container_Logs
-│
-├── 📁 TreeMap_Representacao
-│   ├── 📄 TreeMap_Library
-│   └── 📄 D3js_Example
-│
-└── 📁 Ferramentas_Tecnologias
-    ├── 📄 Programacao_Scripts
-    ├── 📄 Graficos_Libraries
-    ├── 📄 Docker_API
-    └── 📄 Interface_Web
+
+    
+    📁 ExcitaTemp
+    │
+    ├── 📁 Leitura_Temperatura
+    │   ├── 📄 App_Android
+    │   └── 📄 Sensores_Script
+    │
+    ├── 📁 Coleta_Dados
+    │   ├── 📄 Zona_Termica_Capture
+    │   └── 📄 Docker_Container_Logs
+    │
+    ├── 📁 TreeMap_Representacao
+    │   ├── 📄 TreeMap_Library
+    │   └── 📄 D3js_Example
+    │
+    └── 📁 Ferramentas_Tecnologias
+        ├── 📄 Programacao_Scripts
+        ├── 📄 Graficos_Libraries
+        ├── 📄 Docker_API
+        └── 📄 Interface_Web
 Subprojeto Relacionado:
 Rinha-de-Bot-End 🤖🔗
 
