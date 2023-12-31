@@ -1,3 +1,62 @@
+Nome do Projeto: ExcitaTemp 🌡️🚀
+
+Descrição:
+O ExcitaTemp é um projeto empolgante que visa mapear e visualizar os pontos de temperatura da zona térmica de dispositivos, utilizando treemaps para uma representação gráfica intuitiva. Além disso, o projeto se estende à análise de dados térmicos provenientes de contêineres Docker, proporcionando uma visão abrangente das variações de temperatura.
+
+Estrutura do Projeto:
+markdown
+Copy code
+📁 ExcitaTemp
+│
+├── 📁 Leitura_Temperatura
+│   ├── 📄 App_Android
+│   └── 📄 Sensores_Script
+│
+├── 📁 Coleta_Dados
+│   ├── 📄 Zona_Termica_Capture
+│   └── 📄 Docker_Container_Logs
+│
+├── 📁 TreeMap_Representacao
+│   ├── 📄 TreeMap_Library
+│   └── 📄 D3js_Example
+│
+└── 📁 Ferramentas_Tecnologias
+    ├── 📄 Programacao_Scripts
+    ├── 📄 Graficos_Libraries
+    ├── 📄 Docker_API
+    └── 📄 Interface_Web
+Subprojeto Relacionado:
+Rinha-de-Bot-End 🤖🔗
+
+Ferramentas e Tecnologias:
+🐍 Python
+☕ Java
+🌐 JavaScript (D3.js)
+🐳 Docker
+📊 Bibliotecas de visualização de dados
+Instruções de Uso:
+Leitura de Temperatura:
+
+Utilize os scripts em Leitura_Temperatura/Sensores_Script para acessar dados de temperatura.
+Coleta de Dados:
+
+Execute Coleta_Dados/Zona_Termica_Capture para coletar informações da zona térmica.
+Analise logs de contêineres Docker em Coleta_Dados/Docker_Container_Logs.
+Representação em TreeMap:
+
+Explore exemplos em TreeMap_Representacao/D3js_Example para criar visualizações atraentes.
+Ferramentas e Tecnologias:
+
+Referencie os scripts e bibliotecas nas respectivas pastas.
+Contribuição:
+Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas, enviar solicitações de recebimento e colaborar no desenvolvimento.
+
+Aviso:
+Lembre-se de respeitar as limitações do hardware do seu dispositivo ao executar operações intensivas. O projeto é desenvolvido com fins educacionais e experimentais.
+
+Divirta-se explorando as temperaturas com o ExcitaTemp! 🌡️🚀
+
+
 Desenvolver uma API como o ExcitaTemp para monitorar em tempo real a zona térmica e outros dados do dispositivo, mesmo quando está desligado:
 
 ### ExcitaTemp API 🌡️🚀
