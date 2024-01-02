@@ -7,9 +7,65 @@
 
 capim per capita de 30 ETH pra gado de esquerda, centro e direita...
 
+demos uma pausa pra pensar outras coisas depois que o gcp quebrou com meus 5 GB de hd \o/
+
+
+(pedi socorro....um hpc...mas crasheou na instalação do hpc toolkit...)
+bora 
+
+
+     Welcome to Cloud Shell! Type "help" to get started.
+     Your Cloud Platform project in this session is set to centered-router-362118.
+     Use “gcloud config set project [PROJECT_ID]” to change to a different project.
+     npm ERR! code ENOSPC
+     npm ERR! syscall write
+     npm ERR! errno -28
+    ** npm ERR! nospc ENOSPC: no space left on device, write**
+     npm ERR! nospc There appears to be insufficient space on your system to finish.
+     npm ERR! nospc Clear up some disk space and try again.
+     
+     npm ERR! A complete log of this run can be found in: /home/sobrinhosj/.npm/_logs/2024-01-02T19_46_10_107Z-debug-0.log
+     nvm is not compatible with the npm config "prefix" option: currently set to ""
+     Run `nvm use --delete-prefix v20.10.0 --silent` to unset it.
+     dirname: missing operand
+     Try 'dirname --help' for more information.
+     **sobrinhosj@cloudshell:~ (centered-router-362118)$ Your home disk usage is at 100%.**
+     You can find suggestions to clear space at https://cloud.google.com/shell/docs/quotas-limits#clearing_disk_space.
+     sobrinhosj@cloudshell:~ (centered-router-362118)$ 
+
+que merda!
+
 # dia 01 e 30 deu merda na hora de subir git commit push no visual gcp depois que a conta freemium do gitdev rodou....
 
-ontem pesando em rodar os 91 competidores simultaneamente mas ai deu pau no google hpc...
+ontem pesando em rodar os 91 competidores simultaneamente mas ai deu pau no google hpc ---> **quer merda....**
+
+           sobrinhosj@cloudshell:~/rinha-de-backend-2023-q3/stress-test$ ./run-test.sh 
+           GATLING_HOME is set to /home/sobrinhosj/gatling-charts-highcharts-bundle-3.9.1
+           19:21:27.664 [WARN ] i.g.c.ZincCompiler$ - -target is deprecated: Use -release instead to compile against the correct platform API.
+           19:21:31.805 [WARN ] i.g.c.ZincCompiler$ - one warning found
+           Error 
+  Failure writing to null. Caused by java.io.IOException: **No space left on device** **que merda!!**
+           Gatling 3.10.3 is available! (you're using 3.9.1)
+           19:21:34.688 [ERROR] i.g.a.Gatling$ - **Run crashed**  ** quer merda...**
+             java.lang.ClassFormatError: Truncated class file
+
+sobrinhosj@cloudshell:~/rinha-de-backend-2023-q3/participantes$ df -h
+Filesystem                         Size  Used Avail Use% Mounted on
+
+**overlay                            114G  105G  9.7G  92% /**  que merda!
+
+tmpfs                               64M     0   64M   0% /dev
+/dev/sda1                          114G  105G  9.7G  92% /root
+
+**/dev/disk/by-id/google-home-part1  4.8G  4.6G     0 100% /home**   que merda!!
+
+/dev/root                          2.0G  1.1G  849M  57% /lib/modules
+shm                                 64M     0   64M   0% /dev/shm
+tmpfs                              3.2G  812K  3.2G   1% /google/host/var/run
+shm                                 64M     0   64M   0% /google/host/var/run/containerd/io.containerd.grpc.v1.cri/sandboxes/b0e1c2023f82f794313f528c73850870eb53643436788c2818af2c1d88ec35fd/shm
+sobrinhosj@cloudshell:~/rinha-de-backend-2023-q3/participantes$ 
+
+           
 
     compilacao-resultados.sh  LICENSE.md  participantes  resultados           rinha-primeira-fase.sh  stress-test
     INSTRUCOES.md             misc        README.md      rinha-final-live.sh  scripts                 teste
@@ -30,8 +86,10 @@ ontem pesando em rodar os 91 competidores simultaneamente mas ai deu pau no goog
 
     bixby5001@cloudshell:~/Rinha-de-Bot-End/rinhadeBackEnd/rinha-de-backend-2023-q3/participantes$ find . -type d -exec du -sh {} \; | sort -h -r
     3.3M    .
-    1.2M    ./iancambrea/assets
-    1.2M    ./iancambrea
+
+1.2M    ./iancambrea/assets **rm** 
+1.2M    ./iancambrea **rm!**  
+
     124K    ./lauroappeltv2
     120K    ./lauroappelt
     84K     ./lauroappeltv2/assets
@@ -150,6 +208,42 @@ ontem pesando em rodar os 91 competidores simultaneamente mas ai deu pau no goog
     8.0K    ./alberto_souza/infra/nginx/loadbalancer/include
     8.0K    ./alberto_souza/infra/nginx/loadbalancer/conf.d
 
+
+# limpar pasta
+para continuar
+
+       7.8M    ./participantes/hugomarques/rinha-backend-2023-q3-java/.git/objects/pack
+       8.0M    ./participantes/hugomarques/rinha-backend-2023-q3-java/.git
+       13M     ./stress-test/user-files/results/rinhabackendsimulation-20231228054638539
+       15M     ./stress-test/user-files/results/rinhabackendsimulation-20231227045822228
+       15M     ./stress-test/user-files/results/rinhabackendsimulation-20231227173930077
+       15M     ./stress-test/user-files/results/rinhabackendsimulation-20231228053256744
+       16M     ./stress-test/user-files/results/rinhabackendsimulation-20231229045705831
+       16M     ./stress-test/user-files/results/rinhabackendsimulation-20231229050559530
+       16M     ./stress-test/user-files/results/rinhabackendsimulation-20231229051934401
+       17M     ./stress-test/user-files/results/rinhabackendsimulation-20231225210218576
+       17M     ./stress-test/user-files/results/rinhabackendsimulation-20231225224749819
+       17M     ./stress-test/user-files/results/rinhabackendsimulation-20231226162525920
+       22M     ./participantes/lauroappelt/rinha-de-backend-2023/vendor/phpstan
+       22M     ./participantes/lauroappelt/rinha-de-backend-2023/vendor/phpstan/phpstan
+       24M     ./participantes/hugomarques/rinha-backend-2023-q3-java/stress-test
+       24M     ./participantes/hugomarques/rinha-backend-2023-q3-java/stress-test/user-files
+       24M     ./participantes/hugomarques/rinha-backend-2023-q3-java/stress-test/user-files/resources
+       24M     ./stress-test/user-files/resources
+       32M     ./participantes/hugomarques
+       32M     ./participantes/hugomarques/rinha-backend-2023-q3-java
+       60M     ./participantes/lauroappelt/rinha-de-backend-2023/vendor
+       61M     ./participantes/lauroappelt
+       61M     ./participantes/lauroappelt/rinha-de-backend-2023
+       99M     ./participantes
+       134M    ./.git/objects
+       134M    ./.git/objects/pack
+       135M    ./.git
+       151M    ./stress-test/user-files/results
+       174M    ./stress-test
+       174M    ./stress-test/user-files
+       410M    .
+       sobrinhosj@cloudshell:~/rinha-de-backend-2023-q3 (centered-router-362118)$ 
 
 
 # 29 dezembro 2023 agi-bot-tem
